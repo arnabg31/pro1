@@ -37,7 +37,6 @@
                     <a href="about.php"  class="nav-item nav-link"><i class="fa-solid fa-address-card"></i> ABOUT US </a>
                     <a href="best sallers.php" class="nav-item nav-link"><i class="fa-solid fa-chess-board"></i> Best Sallers </a>
                     <a href="gift ideas.php"  class="nav-item nav-link"><i class="fa-solid fa-gift"></i> Gift Ideas </a>
-                    <a href="new releases.php"  class="nav-item nav-link"> <i class="fa-brands fa-discourse"></i> New Releases </a>
                     <a href="today details.php"  class="nav-item nav-link"><i class="fa-solid fa-calendar-week"></i> Today Details</a>
                     <a href="customer service.php"  class="nav-item nav-link"> <i class="fa-brands fa-aws"></i>  Customer Service </a>
                     <a href="contact.php"  class="nav-item nav-link"><i class="fa-regular fa-id-badge"></i> Contact </a>
@@ -86,8 +85,9 @@ codepel.com
 om/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 
+<!--Slider Image-->
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <!--<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
     <img style="width: 1530px; height: 400px;" src="mall.jpg" alt="First slide">
@@ -107,7 +107,7 @@ om/jquery-3.5.1.slim.min.js"></script>
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+</div>-->
 
 
 
