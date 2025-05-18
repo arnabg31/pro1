@@ -25,6 +25,10 @@
 
 
 <!-- Navigator bar -->
+ <div class="container-fluid p-5 my-5 bg-teal text-blue">
+<img src="image\blogo.png" style="width:150px; height:110px;">
+ <h3 class="mx-5  text-center">ELEGANCE IS ALWAYS IN STYLESL.</h3>
+</div>
 
     <div class="container-fluid bg-dark position-relative shadow ">
              <nav class="navbar navbar-expand-lg navbar-dark py-5 py-lg-0 px-0  px-lg-5">
@@ -113,15 +117,15 @@ om/jquery-3.5.1.slim.min.js"></script>
 <!-- Slider-->
  <div class="carousel-inner">
       <div class="item active">
-        <img src="photo1.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="image\pic3.jpg" alt="Los Angeles" style="width:100%;">
       </div>
 
       <div class="item">
-        <img src="photo2.jpg" alt="Chicago" style="width:100%;">
+        <img src="image\pic2.jpg" alt="Chicago" style="width:100%;">
       </div>
     
       <div class="item">
-        <img src="photo3.jpg" alt="New york" style="width:100%;">
+        <img src="image\pic1.jpg" alt="New york" style="width:100%;">
       </div>
     </div>
 
