@@ -143,6 +143,58 @@ Our centres are well located being connected with road transport as well as rail
 </div>-->
 
 <!--Add to cart and image-->
+<section class="w3l-homeblock1">
+  <div class="w3-services-ab py-5">
+    <div class="container py-md-5 py-4">
+      <div class="w3-services-grids pb-sm-5 mb-sm-4">
+        <div class="row w3-services-right-grid">
+          <div class="col-xl-6 py-2">
+            <div class="d-flex align-items-center feature-gd ">
+              <div class="icon-info">
+                <img class="img-round-all" src="saree1.jpg" alt="about us" style="width: 50%; height: 300px">
+</div>
+            </div>
+          </div>
+          <div class="col-xl-6 py-2">
+            <div class="d-flex align-items-center feature-gd ">
+              <div class="icon-info">
+               <!-- <h5>Training of traditional industrial workers</h5>
+                <p>Our target is to  provide training facilities not only to students but  also to such people who are working in the industries  without having any prior formal training such that they could be benefited by availing practical training along with adequate theory and the knowledge of working with safe practices so that industries would be benefited by their services, expreance and accidents could be minimized.</p>
+              </div>-->
+
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="d-flex align-items-center feature-gd ">
+              <div class="icon-info">
+                <h5>Introduction of Personality Development</h5>
+                <p>In today’s world presentation and communication skills is as important as knowledge. So, we also intend to provide our students with an exposure in communicative English and personality development including interview grooming classes so that it would help them in facing interviews nationwide as well as internationally.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="d-flex align-items-center feature-gd ">
+              <div class="icon-info">
+                <h5>Placement Assistance cell</h5>
+                <p>The institute has a placement cell in order to provide placement assistance to our students. Our placement cell remains in constant touch with various concerns for placing our students. We also guide our students those who would like to set up of their own enterprise or business by providing necessary guidance to them.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ******** Affiliated & Training Partner********-->
+
+<div class="container-fluid p-5 bg-primary text-blue ">
+  <div class="container py-md-5 py-4">
+    <div class="title-heading-w3 text-center mx-auto mb-5 pb-sm-4">
+      <h3 class="title-main"><span>Affiliated & Training Partner</span></h3>
+    </div>
+  </div>
+</div>
 
 
 
