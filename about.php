@@ -50,159 +50,48 @@
 
 <!-- *****Banner ********-->
 
-<div class="title-heading-w3 text-center mx-auto my-4 mb-5 pb-sm-4">
-<h3 class="title-main"><span>ABOUT US</span></h3>
-</div>
-
-<div class="container  text-blue">
-
-<p style="text-align: justify;">At Anya, we specialize in designer sarees, custom-made blouses and other costumes, and any sort of ceremonial ensemble for women and kids. At a glance, it is a boutique store with a great collection of designer attire. The difference is that most of the clothes we make are inspired by our nation’s rich heritage of art and craft. We blend these heritage-inspired designs with the finest fabrics (such as Banaras silk and Kanchipuram silk) and shape them according to the customer’s needs. Thanks to our exceptional team of designers, embroidery / cutwork specialists and other supporting staff, the Anya creations have already succeeded in setting a noble trend in the ceremonial.
-</div>
-</div>
-
-<div class="container  my-2 ">
-<img class="img-round-all" src="sariw.jpg" alt="about us" style="width: 50%; height: 500px">
-</div>
-
-<!--Information and Fassion picture-->
-
-<div>
-<div class="my-4 " >
-<h2 style="text-align: center; color: #052049;"><strong>FOUNDER OF </strong></h2>
-</div>
-<div class="container  text-blue">
-
-<p style="text-align: justify;"> Mrs. Pankaj Mahesh is a woman of vision filled with creativity. Her ability in design is in born in a way that she has the power to imagine art and reciprocate it into one of a kind design piece. With a passion and an eager to create effortlessly elegant ethnic clothing and added motivation the journey of Anya began in the year 2009. It all started with designing for herself, her daughter and then her family. She has a unique style of merging vibrant Indian fabrics with intricate vintage embroidery to retain the beauty of Indian Tradition. Her couture speaks of royalty and class. Her passion for designing grew in a vast way, the result of which we see at ANYA today. She has a strong mission to make ANYA a one stop shop for the whole family. Be it a wedding outfit, ethnic ensemble, accessories, jewelry and shoes for your big day; ANYA will turn your desires into reality!
-</div>
-</div>
-
-
-<!--<div>
-<div class="my-4 " >
-<h2 style="text-align: center; color: #052049;"><strong>Establishment of Our Institute</strong></h2>
-</div>
-<div class="container  text-blue">
-
-<p style="text-align: justify;">Our Proyash Educational & Social Trust was established in the year 2009, dully registered on 01.01.2010 and started imparting training on behalf of others at few districts such as Hooghly, Burdwan & Birbhum. Presently Proyash Educational & Social Trust has decided to impart training directly to the concerned students with a view to provide direct placement assistance. </p>
-</div>
-</div>
-
-<div>
-<div class="my-4 " >
-<h2 style="text-align: center; color: #052049;"><strong>Recent Decision of Our Trust</strong></h2>
-</div>
-<div class="container  text-blue">
-
-<p style="text-align: justify;"> The governing body members of our trust have decided to impart training independently at suitable locations through systematic and planned studies in sync with the technological innovation and continuous change in industrial skill profiles. We always remain vigilant towards the advancement that is taking place in the industries so as to consider the review of our curriculum accordingly. Our motto is to continuously upgrade and update our training according to the need and trends of the industries such that our training courses would be world-class so as to enable our students to get themselves not only placed nationally but internationally as well. </p>
-</div>
-</div>
-
-<div>
-<div class="my-4 " >
-<h2 style="text-align: center; color: #052049;"><strong>Organisation's Profile</strong></h2>
-</div>
-<div class="container  text-blue">
-
-<p style="text-align: justify;">  Proyash Technical Training Institute, is a further step to impart vocational training in the field Specialised focus on Air-condition, Automobile, Electrical & Electronics, Solar System, Civil, Computer Hardware and Computer software Engineering. From the year 2011 to till date, more than 2500 students are passed out in various courses and 2000+ students got placement in various organisations.
-
-Additionally, we are jointly administrating “George school of law”, Konnagar, Hooghly to impart legal education such as BALLB affiliated to University of Calcutta, LLB affiliated to University of Burdwan and approved by the Bar Council of India. Transforming carrier of students with legal, ethical and cultural development.
-
-Our centres are well located being connected with road transport as well as railway services for easy access to our staff, faculties and students. The institute has the requisite infrastructure and we would keep ourselves vigilant to modernize them at all times. We do have qualified teaching faculties whom we propose to send and visit industries from time to time for upgrading and updating their knowledge and skills such that our students are benefited in turn at all times.</p>
-</div>
-</div>
-
-<div>
-<div class="my-4 " >
-<h2 style="text-align: center; color: #052049;"><strong>Students' Exposure</strong></h2>
-</div>
-<div class="container  text-blue">
-
-<p style="text-align: justify;">Besides imparting institutional training, we have proposed to provide scope of exposure in real life situation in industries through industrial visits to some reputed concerns or provide them with short term hands-on-training on some special gadgets, equipment cum machines as available in industries in order to complement their knowledge and skills. Students are also supposed to carry out project work as well.</p>
-</div>
-</div>
-
-
-<div>
-<div class="my-4 " >
-<h2 style="text-align: center; color: #052049;"><strong>Provision for training of traditional industrial workers</strong></h2>
-</div>
-<div class="container  text-blue">
-
-<p style="text-align: justify;">Our motto is also to provide training facilities to such people who are working in industries without having any formal training earlier such that they could be benefited by availing systematic practical training along with adequate theory and the knowledge of working with safe practices so that industries would be benefited with their services and accidents could be minimized.</p>
-</div>
-</div>
-
-<div>
-<div class="my-4 " >
-<h2 style="text-align: center; color: #052049;"><strong>Placement cell</strong></h2>
-</div>
-<div class="container  text-blue">
-
-<p style="text-align: justify;">The institute has a placement cell in order to provide placement assistance to our students. Our placement cell remains in constant touch with various concerns for placing our students. We also guide our students those who would like to go for self-employment by setting up of their own entreprise or business by providing necessary guidance to them.</p>
-</div>
-</div>-->
-
-<!--Add to cart and image-->
-<section class="w3l-homeblock1">
-  <div class="w3-services-ab py-5">
-    <div class="container py-md-5 py-4">
-      <div class="w3-services-grids pb-sm-5 mb-sm-4">
-        <div class="row w3-services-right-grid">
-          <div class="col-xl-6 py-2">
-            <div class="d-flex align-items-center feature-gd ">
-              <div class="icon-info">
-                <img class="img-round-all" src="saree1.jpg" alt="about us" style="width: 50%; height: 300px">
-</div>
-            </div>
-          </div>
-          <div class="col-xl-6 py-2">
-            <div class="d-flex align-items-center feature-gd ">
-              <div class="icon-info">
-               <!-- <h5>Training of traditional industrial workers</h5>
-                <p>Our target is to  provide training facilities not only to students but  also to such people who are working in the industries  without having any prior formal training such that they could be benefited by availing practical training along with adequate theory and the knowledge of working with safe practices so that industries would be benefited by their services, expreance and accidents could be minimized.</p>
-              </div>-->
-
-            </div>
-          </div>
-          <div class="col-xl-6">
-            <div class="d-flex align-items-center feature-gd ">
-              <div class="icon-info">
-                <h5>Introduction of Personality Development</h5>
-                <p>In today’s world presentation and communication skills is as important as knowledge. So, we also intend to provide our students with an exposure in communicative English and personality development including interview grooming classes so that it would help them in facing interviews nationwide as well as internationally.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6">
-            <div class="d-flex align-items-center feature-gd ">
-              <div class="icon-info">
-                <h5>Placement Assistance cell</h5>
-                <p>The institute has a placement cell in order to provide placement assistance to our students. Our placement cell remains in constant touch with various concerns for placing our students. We also guide our students those who would like to set up of their own enterprise or business by providing necessary guidance to them.</p>
-              </div>
-            </div>
-          </div>
+<!-- About 8 - Bootstrap Brain Component -->
+<div class="container-fluid bg-dark position-relative shadow ">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="image\logo1.png" style="width:160px; height:120px;">
+            <h3 class="text-center">ELEGANCE IS ALWAYS IN STYLESL.</h3>
         </div>
-      </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <h1 class="text-center text-white">About Us</h1>
+        </div>
     </div>
-  </div>
-</section>
-
-<!-- ******** Affiliated & Training Partner********-->
-
-<div class="container-fluid p-5 bg-primary text-blue ">
-  <div class="container py-md-5 py-4">
-    <div class="title-heading-w3 text-center mx-auto mb-5 pb-sm-4">
-      <h3 class="title-main"><span>Affiliated & Training Partner</span></h3>
-    </div>
-  </div>
 </div>
-
-
+<!-- *****Banner ********-->
+<!-- About 8 - Bootstrap Brain Component -->
+<div class="container-fluid bg-light position-relative shadow ">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <h1 class="text-center text-dark">About Us</h1>
+            <p class="text-center text-dark">Welcome to our online store! We are dedicated to providing you with the best shopping experience possible. Our mission is to offer high-quality products at competitive prices, along with exceptional customer service.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="image\logo1.png" style="width:160px; height:120px;">
+        </div>
+    </div>
+</div>
+<!-- About 8 - Bootstrap Brain Component -->
+<!-- *****Banner ********-->
+<div class="container-fluid bg-dark position-relative shadow ">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <h1 class="text-center text-white">Our Mission</h1>
+            <p class="text-center text-white">Our mission is to provide our customers with the best shopping experience possible. We strive to offer high-quality products at competitive prices, along with exceptional customer service.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="image\logo1.png" style="width:160px; height:120px;">
+        </div>
+    </div>
+</div>
 
 <!-- *************Footer***************-->
 
 <?php include ("footer.php");?>
 
-<!-- *************Footer***************-->
-</div>
 </body>
 </html>
