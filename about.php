@@ -65,7 +65,7 @@
   <div class="container">
     <div class="row gy-4 gy-lg-0 align-items-lg-center">
       <div class="col-12 col-lg-6">
-        <img class="img-fluid rounded border border-dark" loading="lazy" src="./assets/img/about-img-1.webp" alt="About Us">
+        <img class="img-fluid rounded border border-dark" loading="lazy" src="shopping.jpg" alt="About Us">
       </div>
       <div class="col-12 col-lg-6 col-xxl-6">
         <div class="row justify-content-lg-end justify-content-xxl-around">
