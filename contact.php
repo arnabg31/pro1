@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+    <title>pro1</title>
     <!--fav icons-->
     <link rel="icon" href="image\logo.png" type="image/x-icon">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
-<link href="css/min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
     <!-- JS -->
     <script src="js/bootstrap.js"></script>
