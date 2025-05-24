@@ -9,6 +9,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <!-- JS -->
     <script src="js/bootstrap.js"></script>
@@ -107,22 +110,27 @@ om/jquery-3.5.1.slim.min.js"></script>
 <!--Slider Image-->
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
+
+  <!-- Slides -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100 h-50" src="image/ph.jpg" alt="First slide">
+      <img src="image/ph.jpg" class="d-block w-100 h-50" alt="First Slide">
     </div>
-    <div class="carousel-item active">
-      <img class="d-block w-100 h-50" src="image/pic9.jpg" alt="Second slide">
+    <div class="carousel-item">
+      <img src="image/pic9.jpg" class="d-block w-100 h-50" alt="Second Slide">
     </div>
-    <div class="carousel-item active">
-      <img class="d-block w-100 h-50" src="image/pic6.jpg" alt="Third slide">
+    <div class="carousel-item">
+      <img src="image/pic6.jpg" class="d-block w-100 h-50" alt="Third Slide">
     </div>
   </div>
+
+  <!-- Controls -->
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -134,10 +142,14 @@ om/jquery-3.5.1.slim.min.js"></script>
 </div>
 
 
-
        <!-- *************Footer***************-->
 
 <?php include ("footer.php");?>
+
+<!-- Bootstrap JS + dependencies -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 </body>
 </html>
