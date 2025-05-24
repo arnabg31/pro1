@@ -9,11 +9,15 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
     <!-- JS -->
     <script src="js/bootstrap.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <!--google font-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -24,21 +28,6 @@
 
 
     <!-- ********* Header *********-->
-
-    <!-- Navigator bar -->
-
-    <div class="container-fluid bg-dark position-relative shadow ">
-             <nav class="navbar navbar-expand-lg navbar-dark py-5 py-lg-0 px-0 px-lg-5">
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between"  id="navbarCollapse">
-                <div class="navbar-nav font-weight-bold mx-auto py-0 text-left">
-                    <a href="index.php"  class="nav-item nav-link active">WORLD WIDE SHIPPING Avaiable. </a>
-</nav>
-</div>
-
-
 <!-- Navigator bar -->
  <div class="container-fluid p-1 my-1 bg-teal text-blue">
 <img src="image\logo1.png" style="width:160px; height:120px;">
@@ -114,15 +103,15 @@ om/jquery-3.5.1.slim.min.js"></script>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100 h-50" src="image/ph.jpg" alt="First slide">
+      <img class="d-block w-100 h-50" src="image/boutique1.jpg" alt="First slide">
     </div>
-    <div class="carousel-item active">
-      <img class="d-block w-100 h-50" src="image/pic9.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item active">
+    <!--<div class="carousel-item active">
+      <img class="d-block w-100 h-50" src="image/pic1.jpg"  alt="Second slide">
+    </div>-->
+   <!-- <div class="carousel-item active">
       <img class="d-block w-100 h-50" src="image/pic6.jpg" alt="Third slide">
     </div>
-  </div>
+  </div>-->
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -132,6 +121,30 @@ om/jquery-3.5.1.slim.min.js"></script>
     <span class="sr-only">Next</span>
   </a>
 </div>
+</div>
+
+
+
+<div class="container">
+  <h2 class="text-center">Welcome to Our Boutique</h2>                                    
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Dropdown button
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#"> MAN</a>
+
+      <div class="container">          
+  <img src="image/Artboard.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
+</div>
+
+      <a class="dropdown-item" href="#">WOMEN</a>
+      <a class="dropdown-item" href="#">KIDS</a>
+    </div>
+  </div>
+</div>
+
+
 
 
 
