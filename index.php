@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pro1</title>
     <!--fav icons-->
-    <link rel="icon" href="image\logo.png" type="image/x-icon">
+    <link rel="icon" href="image\logo1.png" type="image/x-icon">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
