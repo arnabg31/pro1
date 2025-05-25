@@ -95,14 +95,11 @@ om/jquery-3.5.1.slim.min.js"></script>
 <!--Slider Image-->
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
-
-  <!-- Slides -->
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100 h-50" src="image/ph.jpg" alt="First slide">
@@ -129,5 +126,11 @@ om/jquery-3.5.1.slim.min.js"></script>
        <!-- *************Footer***************-->
 
 <?php include ("footer.php");?>
+
+<!-- Bootstrap JS + dependencies -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 </body>
 </html>
