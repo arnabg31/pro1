@@ -92,6 +92,8 @@ codepel.com
 om/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 
+</br>
+
 <!--Slider Image-->
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -104,10 +106,10 @@ om/jquery-3.5.1.slim.min.js"></script>
     <div class="carousel-item active">
       <img class="d-block w-100 h-50" src="image/ph.jpg" alt="First slide">
     </div>
-    <div class="carousel-item active">
+    <div class="carousel-item">
       <img class="d-block w-100 h-50" src="image/pic9.jpg" alt="Second slide">
     </div>
-    <div class="carousel-item active">
+    <div class="carousel-item">
       <img class="d-block w-100 h-50" src="image/pic6.jpg" alt="Third slide">
     </div>
   </div>
