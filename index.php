@@ -9,7 +9,6 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
     <!-- JS -->
     <script src="js/bootstrap.js"></script>
@@ -96,22 +95,25 @@ om/jquery-3.5.1.slim.min.js"></script>
 <!--Slider Image-->
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
+
+  <!-- Slides -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100 h-50" src="image/boutique1.jpg" alt="First slide">
+      <img class="d-block w-100 h-50" src="image/ph.jpg" alt="First slide">
     </div>
-    <!--<div class="carousel-item active">
-      <img class="d-block w-100 h-50" src="image/pic1.jpg"  alt="Second slide">
-    </div>-->
-   <!-- <div class="carousel-item active">
+    <div class="carousel-item active">
+      <img class="d-block w-100 h-50" src="image/pic9.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item active">
       <img class="d-block w-100 h-50" src="image/pic6.jpg" alt="Third slide">
     </div>
-  </div>-->
+  </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -121,36 +123,11 @@ om/jquery-3.5.1.slim.min.js"></script>
     <span class="sr-only">Next</span>
   </a>
 </div>
-</div>
-
-
-
-<div class="container">
-  <h2 class="text-center">Welcome to Our Boutique</h2>                                    
-  <div class="dropdown">
-    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-      Dropdown button
-    </button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#"> MAN</a>
-
-      <div class="container">          
-  <img src="image/Artboard.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
-</div>
-
-      <a class="dropdown-item" href="#">WOMEN</a>
-      <a class="dropdown-item" href="#">KIDS</a>
-    </div>
-  </div>
-</div>
-
-
 
 
 
        <!-- *************Footer***************-->
 
 <?php include ("footer.php");?>
-
 </body>
 </html>
