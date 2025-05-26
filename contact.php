@@ -34,12 +34,10 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between"  id="navbarCollapse">
                 <div class="navbar-nav font-weight-bold mx-auto py-0 text-left">
-                    <a href="index.php"  class="nav-item nav-link active"><i class="fa-solid fa-house"></i>HOME </a>
-                    <a href="about.php"  class="nav-item nav-link active"><i class="fa-solid fa-address-card"></i> ABOUT US </a>
-                    <a href="best sallers.php" class="nav-item nav-link"><i class="fa-solid fa-chess-board"></i> Best Sallers </a>
-                    <a href="gift ideas.php"  class="nav-item nav-link"><i class="fa-solid fa-gift"></i> Gift Ideas </a>
-                    <a href="today details.php"  class="nav-item nav-link"><i class="fa-solid fa-calendar-week"></i> Today Details</a>
-                    <a href="customer service.php"  class="nav-item nav-link"> <i class="fa-brands fa-aws"></i>  Customer Service </a>
+                    <a href="index.php"  class="nav-item nav-link "><i class="fa-solid fa-house"></i>HOME </a>
+                    <a href="about.php"  class="nav-item nav-link "><i class="fa-solid fa-address-card"></i> ABOUT US </a>
+                    <a href="bestsallers.php" class="nav-item nav-link "><i class="fa-solid fa-chess-board"></i> Best Sellers </a>
+                    <a href="amount.php"  class="nav-item nav-link"> <i class="fa-brands fa-aws"></i>Amount </a>
                     <a href="contact.php"  class="nav-item nav-link active"><i class="fa-regular fa-id-badge"></i> Contact </a>
                 </div>
             </div>
