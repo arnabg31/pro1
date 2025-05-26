@@ -35,11 +35,9 @@
                 <div class="navbar-nav font-weight-bold mx-auto py-0 text-left">
                     <a href="index.php"  class="nav-item nav-link active"><i class="fa-solid fa-house"></i>HOME </a>
                     <a href="about.php"  class="nav-item nav-link active"><i class="fa-solid fa-address-card"></i> ABOUT US </a>
-                    <a href="best sallers.php" class="nav-item nav-link active"><i class="fa-solid fa-chess-board"></i> Best Sallers </a>
-                    <a href="gift ideas.php"  class="nav-item nav-link"><i class="fa-solid fa-gift"></i> Gift Ideas </a>
-                    <a href="today details.php"  class="nav-item nav-link"><i class="fa-solid fa-calendar-week"></i> Today Details</a>
-                    <a href="customer service.php"  class="nav-item nav-link"> <i class="fa-brands fa-aws"></i>  Customer Service </a>
-                    <a href="contact.php"  class="nav-item nav-link"><i class="fa-regular fa-id-badge"></i> Contact </a>
+                    <a href="best sallers" class="nav-item nav-link active"><i class="fa-solid fa-chess-board"></i> Best Sallers </a>
+                    <a href="amount"  class="nav-item nav-link"> <i class="fa-brands fa-aws"></i>Amount </a>
+                    <a href="contact"  class="nav-item nav-link"><i class="fa-regular fa-id-badge"></i> Contact </a>
                 </div>
             </div>
             </nav>
@@ -51,137 +49,95 @@
 <!-- *****Banner ********-->
 
 <!-- About 8 - Bootstrap Brain Component -->
-<section class="py-3 py-md-5 py-xl-8">
+<!--<section class="py-3 py-md-5 py-xl-8">
   <div class="container">
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-        <h2 class="mb-4 display-5 text-center">Our Best Offers</h2>
-        <p class="text-secondary mb-5 text-center lead fs-4">We pride ourselves on delivering top-notch repair and maintenance solutions to cyclists of all levels.</p>
+        <h2 class="mb-4 display-5 text-center">About Us</h2>
+        <p class="text-secondary mb-5 text-center lead fs-4">Since 2014, MarisGold Unisex Boutique has been a beacon of style, inclusivity, and innovation in the world of fashion. With a legacy of lengthy years in the industry, we have redefined the concept of unisex clothing, offering a diverse range of apparels and Accesories that transcend gender norms and celebrate individuality.
+
+Our boutique is a curated haven for those who appreciate quality craftsmanship, timeless designs, and a touch of sophistication in every piece. Whether you're looking for sleek streetwear, chic casual wear, or elegant formal attire, MarisGold Unisex Boutique has something for everyone. Each item in our boutique is carefully selected to embody a perfect blend of sophistication, comfort, and versatility, catering to the diverse tastes and preferences of our discerning clientele.
+
+Our team at MarisGold Unisex Boutique is dedicated to providing a personalized shopping experience, where every visit leaves you feeling inspired and empowered to embrace your unique style journey. Whether you're exploring our collections in-store or browsing online, our friendly staff are here to assist you in finding the perfect pieces that speak to your individuality.
+</p>
         <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
       </div>
     </div>
-  </div>
+  </div>-->
 
-  <div class="container">
-    <div class="row gy-4 gy-lg-0 align-items-lg-center">
-      <div class="col-12 col-lg-6">
-        <img class="img-fluid rounded border border-dark" loading="lazy" src="shopping.jpg" alt="About Us">
-      </div>
-      <div class="col-12 col-lg-6 col-xxl-6">
-        <div class="row justify-content-lg-end justify-content-xxl-around">
-          <div class="col-12 col-lg-11 col-xxl-10">
-            <div class="card border-0 mb-4">
-              <div class="card-body p-0">
-                <h4 class="card-title mb-3">Our Services</h4>
-                <ul class="list-unstyled m-0 p-0 d-sm-flex flex-sm-wrap">
-                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
-                    <span class="text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
-                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
-                      </svg>
-                    </span>
-                    <span>Tune-Up Services</span>
-                  </li>
-                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
-                    <span class="text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
-                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
-                      </svg>
-                    </span>
-                    <span>Wheel Services</span>
-                  </li>
-                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
-                    <span class="text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
-                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
-                      </svg>
-                    </span>
-                    <span>Brake Services</span>
-                  </li>
-                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
-                    <span class="text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
-                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
-                      </svg>
-                    </span>
-                    <span>Drivetrain Services</span>
-                  </li>
-                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
-                    <span class="text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
-                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
-                      </svg>
-                    </span>
-                    <span>Suspension Services</span>
-                  </li>
-                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
-                    <span class="text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
-                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
-                      </svg>
-                    </span>
-                    <span>Frame Services</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="card border-0 mb-4 mb-xxl-5">
-              <div class="card-body p-0">
-                <h4 class="card-title mb-3">Accessory Installation</h4>
-                <ul class="list-unstyled m-0 p-0 d-sm-flex flex-sm-wrap">
-                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
-                    <span class="text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
-                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
-                      </svg>
-                    </span>
-                    <span>Handlebar Tape Installation</span>
-                  </li>
-                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
-                    <span class="text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
-                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
-                      </svg>
-                    </span>
-                    <span>Pedal Installation</span>
-                  </li>
-                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
-                    <span class="text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
-                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
-                      </svg>
-                    </span>
-                    <span>Fender Installation</span>
-                  </li>
-                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
-                    <span class="text-primary">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
-                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
-                      </svg>
-                    </span>
-                    <span>Rack and Pannier Installation</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <a href="#!" class="btn btn-primary bsb-btn-2xl">
-              Explore
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
-              </svg>
-            </a>
-          </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <section class="about-us py-5 bg-light">
+    <div class="container">
+      <div class="row">
+       
+        <div class="col-md-6">
+          <img src="image/saree3.jpg" alt="About Us" class="img-fluid rounded">
+        </div>
+        
+        <div class="col-md-6">
+          <h2 class="mb-4">About Us</h2>
+          <p class="text-muted">
+            Welcome to our company! We are dedicated to delivering exceptional services and innovative solutions to meet your needs. Our team of experts works tirelessly to ensure customer satisfaction and success.
+          </p>
+          <p class="text-muted">
+            With years of experience and a passion for excellence, we strive to make a positive impact in everything we do. Join us on this journey to create something extraordinary together.
+          </p>
+          <a href="#" class="btn btn-primary mt-3">Learn More</a>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+ <!-- <section class="py-5">
+	<div class="container">
+		<div class="row gx-4 align-items-center justify-content-between">
+			<div class="col-md-5 order-2 order-md-1">
+				<div class="mt-5 mt-md-0">
+					<span class="text-muted">Our Story</span>
+					<h2 class="display-5 fw-bold">About Us</h2>
+					<p class="lead">Since 2014, MarisGold Unisex Boutique has been a beacon of style, inclusivity, and innovation in the world of fashion. With a legacy of lengthy years in the industry, we have redefined the concept of unisex clothing, offering a diverse range of apparels and Accesories that transcend gender norms and celebrate individuality.
+
+Our boutique is a curated haven for those who appreciate quality craftsmanship, timeless designs, and a touch of sophistication in every piece. Whether you're looking for sleek streetwear, chic casual wear, or elegant formal attire, MarisGold Unisex Boutique has something for everyone. Each item in our boutique is carefully selected to embody a perfect blend of sophistication, comfort, and versatility, catering to the diverse tastes and preferences of our discerning clientele.
+
+Our team at MarisGold Unisex Boutique is dedicated to providing a personalized shopping experience, where every visit leaves you feeling inspired and empowered to embrace your unique style journey. Whether you're exploring our collections in-store or browsing online, our friendly staff are here to assist you in finding the perfect pieces that speak to your individuality.
+</p>
+				</div>
+			</div>
+			<div class="col-md-6 offset-md-1 order-1 order-md-2">
+				<div class="row gx-2 gx-lg-3">
+					<div class="col-6">
+						<div class="mb-2"><img class="img-fluid rounded-3" src="image/saree3.jpg"></div>
+					</div>
+					<div class="col-6">
+						<div class="mb-2"><img class="img-fluid rounded-3" src="image/sariw.jpg"></div>
+					</div>
+					<div class="col-6">
+						<div class="mb-2"><img class="img-fluid rounded-3" src="image/saree1.jpg"></div>
+					</div>
+					<div class="col-6">
+						<div class="mb-2"><img class="img-fluid rounded-3" src="image/Artboard.jpg"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
-<!--footer***********-->
+<!-- *************Footer***************-->
 
 <?php include ("footer.php");?>
-
 </body>
 </html>
+
