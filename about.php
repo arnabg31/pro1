@@ -35,11 +35,9 @@
                 <div class="navbar-nav font-weight-bold mx-auto py-0 text-left">
                     <a href="index.php"  class="nav-item nav-link active"><i class="fa-solid fa-house"></i>HOME </a>
                     <a href="about.php"  class="nav-item nav-link active"><i class="fa-solid fa-address-card"></i> ABOUT US </a>
-                    <a href="best sallers.php" class="nav-item nav-link active"><i class="fa-solid fa-chess-board"></i> Best Sallers </a>
-                    <a href="gift ideas.php"  class="nav-item nav-link"><i class="fa-solid fa-gift"></i> Gift Ideas </a>
-                    <a href="today details.php"  class="nav-item nav-link"><i class="fa-solid fa-calendar-week"></i> Today Details</a>
-                    <a href="customer service.php"  class="nav-item nav-link"> <i class="fa-brands fa-aws"></i>  Customer Service </a>
-                    <a href="contact.php"  class="nav-item nav-link"><i class="fa-regular fa-id-badge"></i> Contact </a>
+                    <a href="best sallers" class="nav-item nav-link active"><i class="fa-solid fa-chess-board"></i> Best Sallers </a>
+                    <a href="amount"  class="nav-item nav-link"> <i class="fa-brands fa-aws"></i>Amount </a>
+                    <a href="contact"  class="nav-item nav-link"><i class="fa-regular fa-id-badge"></i> Contact </a>
                 </div>
             </div>
             </nav>
@@ -100,7 +98,7 @@ Our team at MarisGold Unisex Boutique is dedicated to providing a personalized s
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
  <!-- <section class="py-5">
 	<div class="container">
