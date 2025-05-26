@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pro1</title>
     <!--fav icons-->
-    <link rel="icon" href="image\logo.png" type="image/x-icon">
+    <link rel="icon" href="image\logo1.png" type="image/x-icon">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -14,6 +14,9 @@
     <script src="js/bootstrap.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <!--google font-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -24,21 +27,6 @@
 
 
     <!-- ********* Header *********-->
-
-    <!-- Navigator bar -->
-
-    <div class="container-fluid bg-dark position-relative shadow ">
-             <nav class="navbar navbar-expand-lg navbar-dark py-5 py-lg-0 px-0 px-lg-5">
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between"  id="navbarCollapse">
-                <div class="navbar-nav font-weight-bold mx-auto py-0 text-left">
-                    <a href="index.php"  class="nav-item nav-link active">WORLD WIDE SHIPPING Avaiable. </a>
-</nav>
-</div>
-
-
 <!-- Navigator bar -->
  <div class="container-fluid p-1 my-1 bg-teal text-blue">
 <img src="image\logo1.png" style="width:160px; height:120px;">
@@ -107,11 +95,14 @@ om/jquery-3.5.1.slim.min.js"></script>
 <!--Slider Image-->
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
+
+  <!-- Slides -->
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100 h-50" src="image/ph.jpg" alt="First slide">
@@ -138,6 +129,5 @@ om/jquery-3.5.1.slim.min.js"></script>
        <!-- *************Footer***************-->
 
 <?php include ("footer.php");?>
-
 </body>
 </html>

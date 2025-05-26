@@ -10,6 +10,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    
+
 
     <!-- JS -->
     <script src="js/bootstrap.js"></script>
@@ -21,9 +23,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 <script src="https://kit.fontawesome.com/a7612e0a07.js" crossorigin="anonymous"></script>
 
-
     <!-- ********* Header *********-->
-
 
 <!-- Navigator bar -->
 
@@ -46,8 +46,7 @@
             </nav>
 
         </div>
-
-       <!DOCTYPE html>
+        <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -123,10 +122,7 @@
 </body>
 </html>
 
-  <!-- *************Footer***************-->
-
+<!-- *************Footer***************-->
 <?php include ("footer.php");?>
-
-
 </body>
 </html>
