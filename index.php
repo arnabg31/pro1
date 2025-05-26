@@ -27,6 +27,7 @@
 
 
     <!-- ********* Header *********-->
+    
 <!-- Navigator bar -->
  <div class="container-fluid p-1 my-1 bg-teal text-blue">
 <img src="image\logo1.png" style="width:160px; height:120px;">
