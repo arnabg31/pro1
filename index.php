@@ -266,7 +266,7 @@ om/jquery-3.5.1.slim.min.js"></script>
 						</div>
 						<h5 class="fw-bold">Fast Delivery</h5>
 						<div class="display-3 fw-bold my-4 text-primary">
-							$19
+							<i class="fa-solid fa-indian-rupee-sign"></i>19
 						</div>
 						<ul class="list-unstyled mt-3">
 							<li class="mb-3">Super Fast Delivery on all Orders</li>
@@ -283,7 +283,7 @@ om/jquery-3.5.1.slim.min.js"></script>
 						</div>
 						<h5 class="fw-bold">Secure Payment</h5>
 						<div class="display-3 fw-bold my-4 text-primary">
-							$26
+							<i class="fa-solid fa-indian-rupee-sign"></i>26
 						</div>
 						<ul class="list-unstyled mt-3">
 							<li class="mb-3">Pay with peace of mind</li>
@@ -301,7 +301,7 @@ om/jquery-3.5.1.slim.min.js"></script>
 						</div>
 						<h5 class="fw-bold">Exchange</h5>
 						<div class="display-3 fw-bold my-4 text-primary">
-							$0
+							<i class="fa-solid fa-indian-rupee-sign"></i>0
 						</div>
 						<ul class="list-unstyled mt-3">
 							<li class="mb-3">Exchange? We got your back</li>
