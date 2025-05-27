@@ -33,7 +33,7 @@
 		<div class="container">
 			<form class="d-lg-flex d-none align-items-center position-relative">
 				<div class="input-group align-items-center">
-<input aria-describedby="button-addon2" aria-label="Search" class="form-control" placeholder="Search" type="text"> <button class="btn bg-white border" id="button-addon2" type="button"><svg class="bi bi-search" fill="currentColor" height="20" viewbox="0 0 16 16" width="20" xmlns="http://www.w3.org/2000/svg">
+<input aria-describedby="button-addon2" aria-label="Search" class="form-control" placeholder="Search" type="text"> <button class="btn bg-white border" id="button-addon2" type="button"><svg class="bi bi-search" fill="currentColor" height="20" viewbox="0 0 10 16" width="20" xmlns="http://www.w3.org/2000/svg">
 				<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path></svg></button>
 				</div>
 			</form>
@@ -95,7 +95,7 @@
             <div class="collapse navbar-collapse justify-content-between"  id="navbarCollapse">
                 <div class="navbar-nav font-weight-bold mx-auto py-0 text-left">
                     <a href="index.php"  class="nav-item nav-link active"><i class="fa-solid fa-house"></i>HOME </a>
-                    <a href="about.php"  class="nav-item nav-link "><i class="fa-solid fa-address-card"></i> ABOUT US </a>
+                    <a href="about"  class="nav-item nav-link "><i class="fa-solid fa-address-card"></i> ABOUT US </a>
                     <a href="best sallers" class="nav-item nav-link "><i class="fa-solid fa-chess-board"></i> Best Sallers </a>
                     <a href="amount"  class="nav-item nav-link"> <i class="fa-solid fa-comments-dollar"></i> Amount </a>
                     <a href="contact"  class="nav-item nav-link"><i class="fa-regular fa-id-badge"></i> Contact </a>

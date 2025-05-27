@@ -58,8 +58,8 @@
                 <div class="navbar-nav font-weight-bold mx-auto py-0 text-left">
                     <a href="index.php"  class="nav-item nav-link "><i class="fa-solid fa-house"></i>HOME </a>
                     <a href="about.php"  class="nav-item nav-link "><i class="fa-solid fa-address-card"></i> ABOUT US </a>
-                    <a href="bestsallers.php" class="nav-item nav-link "><i class="fa-solid fa-chess-board"></i> Best Sellers </a>
-                    <a href="amount.php"  class="nav-item nav-link"> <i class="fa-solid fa-comments-dollar"></i> Amount </a>
+                    <a href="bestsallers" class="nav-item nav-link "><i class="fa-solid fa-chess-board"></i> Best Sellers </a>
+                    <a href="amount"  class="nav-item nav-link"> <i class="fa-solid fa-comments-dollar"></i> Amount </a>
                     <a href="contact.php"  class="nav-item nav-link active"><i class="fa-regular fa-id-badge"></i> Contact </a>
                 </div>
             </div>
@@ -122,11 +122,11 @@
               <textarea class="form-control" id="msg"
                   name="msg" rows="5" required></textarea>
             </div>
-            <button type="submit" class="btn btn-success btn-block">Submit</button>
+            <button type="submit" class="btn bg-primary btn-block">Submit</button>
           </form>
         </div>
       </div>
-      <div class="col-md-6">
+     <!-- <div class="col-md-6">
         <div class="p-4 bg-secondary text-white rounded">
           <div class="embed-responsive embed-responsive-4by3">
             <iframe class="embed-responsive-item"
@@ -135,12 +135,19 @@
               allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-        </div>
+        </div>-->
+        <div class="col-md-6">
+				<div class="mt-4 mt-md-0"><img alt="Map" class="img-fluid" src="https://freefrontend.dev/assets/map-img-1.png"></div>
+				<div class="mt-3">
+          <p class="text-muted mb-0"><i class="fa fa-map-marker"></i> Address: 1234 Street Name, City, State, Zip</p>
+          <p class="text-muted mb-0"><i class="fa fa-phone"></i> Phone: (123) 456-7890</p>
+          <p class="text-muted mb-0"><i class="fa fa-envelope"></i> Email:
+				</div>
+			</div>
+
       </div>
     </div>
   </div>
-</body>
-</html>
 
 <!-- *************Footer***************-->
 <?php include ("footer.php");?>
