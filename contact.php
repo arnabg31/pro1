@@ -69,7 +69,7 @@
     <div class="row">
       <div class="col-md-6">
         <div class="p-4 bg-white border rounded">
-          <h1 class="text-center text-success">GeeksforGeeks</h1>
+          <!--<h1 class="text-center text-success">GeeksforGeeks</h1>-->
           <h2 class="text-center">Contact Us</h2>
           <form>
             <div class="form-group">
