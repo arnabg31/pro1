@@ -95,8 +95,8 @@
             <div class="collapse navbar-collapse justify-content-between"  id="navbarCollapse">
                 <div class="navbar-nav font-weight-bold mx-auto py-0 text-left">
                     <a href="index.php"  class="nav-item nav-link active"><i class="fa-solid fa-house"></i>HOME </a>
-                    <a href="about.php"  class="nav-item nav-link active"><i class="fa-solid fa-address-card"></i> ABOUT US </a>
-                    <a href="best sallers" class="nav-item nav-link active"><i class="fa-solid fa-chess-board"></i> Best Sallers </a>
+                    <a href="about.php"  class="nav-item nav-link "><i class="fa-solid fa-address-card"></i> ABOUT US </a>
+                    <a href="best sallers" class="nav-item nav-link "><i class="fa-solid fa-chess-board"></i> Best Sallers </a>
                     <a href="amount"  class="nav-item nav-link"> <i class="fa-solid fa-comments-dollar"></i> Amount </a>
                     <a href="contact"  class="nav-item nav-link"><i class="fa-regular fa-id-badge"></i> Contact </a>
                 </div>
@@ -156,15 +156,17 @@ om/jquery-3.5.1.slim.min.js"></script>
   <!-- Slides -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100 h-50" src="image/ph.jpg" alt="First slide">
+      <img src="image/ph.jpg" class="d-block w-100 h-50" alt="First Slide">
     </div>
-    <div class="carousel-item active">
-      <img class="d-block w-100 h-50" src="image/pic9.jpg" alt="Second slide">
+    <div class="carousel-item">
+      <img src="image/pic9.jpg" class="d-block w-100 h-50" alt="Second Slide">
     </div>
-    <div class="carousel-item active">
-      <img class="d-block w-100 h-50" src="image/pic6.jpg" alt="Third slide">
+    <div class="carousel-item">
+      <img src="image/pic6.jpg" class="d-block w-100 h-50" alt="Third Slide">
     </div>
   </div>
+
+  <!-- Controls -->
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -316,5 +318,11 @@ om/jquery-3.5.1.slim.min.js"></script>
        <!-- *************Footer***************-->
 
 <?php include ("footer.php");?>
+
+<!-- Bootstrap JS + dependencies -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 </body>
 </html>
