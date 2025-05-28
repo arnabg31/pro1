@@ -50,43 +50,6 @@
 			</div>
 		</div>
           </nav>
-	<!--<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-		<div class="container">
-			<button aria-controls="navbarSupportedContent8" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent8" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent8">
-				<ul class="navbar-nav me-auto my-2 my-lg-0">
-					<li class="nav-item me-4">
-						<a class="nav-link text-light" href="">About</a>
-					</li>
-					<li class="nav-item me-4">
-						<a class="nav-link text-light" href="">Shop</a>
-					</li>
-					<li class="nav-item me-4">
-						<a class="nav-link text-light" href="">Blog</a>
-					</li>
-					<li class="nav-item me-4">
-						<a class="nav-link text-light" href="">Contact</a>
-					</li>
-				</ul>
-				<div class="d-flex">
-					<a class="d-flex align-items-center text-decoration-none text-light" href="tel:+1-541-754-3010"><svg class="bi bi-phone" fill="currentColor" height="20" viewbox="0 0 16 16" width="20" xmlns="http://www.w3.org/2000/svg">
-					<path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"></path>
-					<path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path></svg> <span class="ms-1">+1-541-754-3010</span></a> <a class="d-flex align-items-center ms-4 text-decoration-none text-light" href="mailto:info@gmail.com"><svg class="bi bi-envelope" fill="currentColor" height="20" viewbox="0 0 16 16" width="20" xmlns="http://www.w3.org/2000/svg">
-					<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path></svg> <span class="ms-2">info@gmail.com</span></a>
-				</div>
-			</div>
-		</div>
-	</nav>
-</section>-->
-
-
-
-
-<!--<div class="container-fluid p-1 my-1 bg-teal text-blue">
-<img src="image\logo1.png" style="width:160px; height:120px;">
- <h3 class="text-center">ELEGANCE IS ALWAYS IN STYLESL.</h3>
-          </div>-->
-
     <div class="container-fluid bg-dark position-relative shadow ">
              <nav class="navbar navbar-expand-lg navbar-dark py-5 py-lg-0 px-0 px-lg-5">
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -96,53 +59,15 @@
                 <div class="navbar-nav font-weight-bold mx-auto py-0 text-left">
                     <a href="index.php"  class="nav-item nav-link active"><i class="fa-solid fa-house"></i>HOME </a>
                     <a href="about.php"  class="nav-item nav-link "><i class="fa-solid fa-address-card"></i> ABOUT US </a>
-                    <a href="bestsallers" class="nav-item nav-link "><i class="fa-solid fa-chess-board"></i> Best Sallers </a>
-                    <a href="amount"  class="nav-item nav-link"> <i class="fa-solid fa-comments-dollar"></i> Amount </a>
-                    <a href="contact"  class="nav-item nav-link"><i class="fa-regular fa-id-badge"></i> Contact </a>
+                    <a href="best sallers.php" class="nav-item nav-link "><i class="fa-solid fa-chess-board"></i> Best Sallers </a>
+                    <a href="amount.php"  class="nav-item nav-link"> <i class="fa-solid fa-comments-dollar"></i> Amount </a>
+                    <a href="contact.php"  class="nav-item nav-link"><i class="fa-regular fa-id-badge"></i> Contact </a>
+
                 </div>
             </div>
             </nav>
 
         </div>
-
-        <!--<div class="container mt-5">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search">
-            <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="button">
-                    <i class="fas fa-search"></i>
-                </button>
-            </div>
-        </div>
-    </div>-->
-
-    <!-- Font Awesome for the search icon -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <!-- Bootstrap JS and dependencies -->
-    <!--<script src="https://code.jquery.c
-Perform Analysis
-Time complexity
-Space complexity
-Change Language
-Select language
-Python
-C++
-Java
-C#
-JavaScript
-Testing Tools
-Generate test data
-Integrate test cases
-More Actions
-Perform code review
-Explain the code
-Add error handling
-Make code compilable
-Global web icon
-codepel.com
-om/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>-->
-
 <!--Slider Image-->
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
