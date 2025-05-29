@@ -26,6 +26,10 @@
     <!-- ********* Header *********-->
 
 <!-- Navigator bar -->
+  <a class="navbar-brand" href="#">
+    <img src="image/fashionbeautylogo.png" width="120" height="130" class="d-inline-block align-top=22" alt="">
+    Fashion Beauty
+  </a>
  <section class="py-5">
 	<nav class="navbar bg-light">
 		<div class="container">
