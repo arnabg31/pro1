@@ -25,6 +25,10 @@
 
 
 <!-- Navigator bar -->
+  <a class="navbar-brand" href="#">
+    <img src="image/fashionbeautylogo.png" width="120" height="130" class="d-inline-block align-top=22" alt="">
+    Fashion Beauty
+  </a>
 
 <section class="py-5">
 	<nav class="navbar bg-light">
@@ -88,15 +92,7 @@ Our team at MarisGold Unisex Boutique is dedicated to providing a personalized s
     </div>
   </div>-->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-<body>
+
   <section class="about-us py-5 bg-light">
     <div class="container">
       <div class="row">
