@@ -154,7 +154,7 @@ Our team at MarisGold Unisex Boutique is dedicated to providing a personalized s
 	</div>
 </section>
 
-<!-- *************Footer***************-->
+<!- *************Footer***************-->
 
 <?php include ("footer.php");?>
 </body>

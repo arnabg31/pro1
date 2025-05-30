@@ -70,10 +70,7 @@
             </nav>
 
         </div>
-        <!DOCTYPE html>
-<html lang="en">
-
-<head>
+        
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Feedback Form with map</title>
@@ -88,14 +85,11 @@
     integrity=
 "sha512-jKX8EOtiVrylMIEk2nRkf5KowSF8+AJslPduL+oV4FqnyxSQxL0t4rKOeKKvntPtskFi1q6hBld6HzfdjZlnfA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
 
-<body>
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-6">
         <div class="p-4 bg-white border rounded">
-          <!--<h1 class="text-center text-success">GeeksforGeeks</h1>-->
           <h2 class="text-center">Contact Us</h2>
           <form>
             <div class="form-group">
@@ -143,8 +137,6 @@
       </div>
     </div>
   </div>
-</body>
-</html>
 
 <!-- *************Footer***************-->
 <?php include ("footer.php");?>

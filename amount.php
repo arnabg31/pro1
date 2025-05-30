@@ -249,16 +249,21 @@
                 <div class="col-sm-8 col-md-6">
                     <div class="card">
                         <div class="card-header">
+                           
 
                         <div class="row">
                             <div class="col-md-6">
                                 <span>CREDIT/DEBIT CARD PAYMENT</span>
-                                
+                                <div class="float-right">
+                                    <i class="fa fa-lock"></i>
+                                    <span class="text-muted">Secure Transaction</span>
+
+                        </div>
                             </div>
 
                             <div class="col-md-6 text-right" style="margin-top: -5px;">
 
-                                  <img src="https://img.icons8.com/color/36/000000/visa.png">
+                                 <img src="https://img.icons8.com/color/36/000000/visa.png">
                                   <img src="https://img.icons8.com/color/36/000000/mastercard.png">
                                   <img src="https://img.icons8.com/color/36/000000/amex.png">
                                            
@@ -267,6 +272,8 @@
                         </div>    
   
                         </div>
+
+                        
                         <div class="card-body" style="height: 350px">
                             <div class="form-group">
                             <label for="cc-number" class="control-label">CARD NUMBER</label>
@@ -293,11 +300,11 @@
                               
                           </div>
 
-      
-                          <div class="form-group">
-                            <label for="numeric" class="control-label">CARD HOLDER NAME</label>
+                           <div class="form-group">
+                            <label for="numeric" class="control-label"> CARD HOLDER NAME</label>
                             <input  type="text" class="input-lg form-control">
                           </div>
+
 
                            <div class="form-group">
                             
