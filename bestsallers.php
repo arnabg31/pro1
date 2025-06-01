@@ -84,7 +84,7 @@
 		</div>
 		<div class="row py-3 align-items-center">
 			<div class="col-md-6 mt-md-0 mt-4">
-				<div class="mb-5 mb-lg-3"><img class="img-fluid" src="https://freefrontend.dev/assets/rectangle-wide.png"></div>
+				<div class="mb-5 mb-lg-3"><img class="img-fluid" src="image/R.jpg"></div>
 			</div>
 			<div class="col-md-6 ps-md-5">
 				<div class="mb-5 mb-lg-3">
