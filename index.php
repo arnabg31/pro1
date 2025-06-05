@@ -27,7 +27,6 @@
 <!-- Navigator bar -->
      <a class="navbar-brand" href="#">
     <img src="image/fashionbeautylogo.png" width="120" height="130" class="d-inline-block align-top=22" alt="">
-    Fashion Beauty
   </a>
 <section class="py-5">
 	<nav class="navbar bg-light">
@@ -149,7 +148,7 @@
 		<div class="row justify-content-center text-center mb-2 mb-lg-4">
 			<div class="col-12 col-lg-8 col-xxl-7 text-center mx-auto">
 				<span class="text-muted">Pricing Table</span>
-				<h2 class="display-5 fw-bold">Our Pricing</h2>
+				<h2 class="display-5 fw-bold">Our Process</h2>
 				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta harum ipsum venenatis metus sem veniam eveniet aperiam suscipit.</p>
 			</div>
 		</div>
