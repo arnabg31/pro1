@@ -73,6 +73,142 @@
         </div>
 
 
+		<!--<div class="container">
+    <div class="row gy-4 gy-lg-0 align-items-lg-center">
+      <div class="col-12 col
+<section class="py-3 py-md-5 py-xl-8">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+        <h2 class="mb-4 display-5 text-center">Our Best Offers</h2>
+        <p class="text-secondary mb-5 text-center lead fs-4">We pride ourselves on delivering top-notch repair and maintenance solutions to cyclists of all levels.</p>
+        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row gy-4 gy-lg-0 align-items-lg-center">
+      <div class="col-12 col-lg-6">
+        <img class="img-fluid rounded border border-dark" loading="lazy" src="shopping.jpg" alt="About Us">
+      </div>
+      <div class="col-12 col-lg-6 col-xxl-6">
+        <div class="row justify-content-lg-end justify-content-xxl-around">
+          <div class="col-12 col-lg-11 col-xxl-10">
+            <div class="card border-0 mb-4">
+              <div class="card-body p-0">
+                <h4 class="card-title mb-3">Our Services</h4>
+                <ul class="list-unstyled m-0 p-0 d-sm-flex flex-sm-wrap">
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Tune-Up Services</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Wheel Services</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Brake Services</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Drivetrain Services</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Suspension Services</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Frame Services</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card border-0 mb-4 mb-xxl-5">
+              <div class="card-body p-0">
+                <h4 class="card-title mb-3">Accessory Installation</h4>
+                <ul class="list-unstyled m-0 p-0 d-sm-flex flex-sm-wrap">
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Handlebar Tape Installation</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Pedal Installation</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Fender Installation</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+					  </span>
+                    <span>Rack and Pannier Installation</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <a href="#!" class="btn btn-primary bsb-btn-2xl">
+              Explore
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>-->
+
+
+
+
+
+
     <section class="py-5">
 	<div class="container">
 		<div class="row justify-content-center text-center mb-2 mb-lg-4">
@@ -86,35 +222,99 @@
 			<div class="col-md-6 mt-md-0 mt-4">
 				<div class="mb-5 mb-lg-3"><img class="img-fluid" src="image/R.jpg"></div>
 			</div>
-			<div class="col-md-6 ps-md-5">
+			<!--<div class="col-md-6 ps-md-5">
 				<div class="mb-5 mb-lg-3">
 					<h4>A Catchy Title</h4>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusantium nulla, sequi cupiditate exercitationem sit incidunt rerum explicabo. Soluta beatae esse praesentium exercitationem vero harum pariatur adipisci qui veritatis est!</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta harum ipsum venenatis metus sem veniam eveniet aperiam suscipit.</p><a class="btn btn-lg btn-primary" href="">View Gallery</a>
 				</div>
 			</div>
-		</div>
+		</div>-->
+
+		 <div class="col-12 col-lg-6 col-xxl-6">
+        <div class="row justify-content-lg-end justify-content-xxl-around">
+          <div class="col-12 col-lg-11 col-xxl-10">
+            <div class="card border-0 mb-4">
+              <div class="card-body p-0">
+                <h4 class="card-title mb-3">Our Services</h4>
+                <ul class="list-unstyled m-0 p-0 d-sm-flex flex-sm-wrap">
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Kanchipuram Sarees</span>
+                  </li>
+
+				   <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+					<span>Bridal Sarees</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Wheel Services</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Brake Services</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Drivetrain Services</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Suspension Services</span>
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Frame Services</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
 		<div class="row mt-2">
 			<div class="col-lg-3 col-md-6">
-				<div class="mb-3 mb-lg-0"><img alt="" class="img-fluid" src="https://freefrontend.dev/assets/rectangle-wide.png"></div>
+				<div class="mb-3 mb-lg-0"><img alt="" class="img-fluid" src="image/kanchipuram-saree.jpg"></div>
 			</div>
 			<div class="col-lg-3 col-md-6">
-				<div class="mb-3 mb-lg-0"><img alt="" class="img-fluid" src="https://freefrontend.dev/assets/rectangle-wide.png"></div>
+				<div class="mb-4 mb-lg-3"><img alt="" class="img-fluid" src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg"></div>
 			</div>
 			<div class="col-lg-3 col-md-6">
-				<div class="mb-3 mb-lg-0"><img alt="" class="img-fluid" src="https://freefrontend.dev/assets/rectangle-wide.png"></div>
+				<div class="mb-3 mb-lg-0"><img alt="" class="img-fluid" src="image/Shreeman0846E.jpg"></div>
 			</div>
 			<div class="col-lg-3 col-md-6">
-				<div class="mb-3 mb-lg-0"><img alt="" class="img-fluid" src="https://freefrontend.dev/assets/rectangle-wide.png"></div>
+				<div class="mb-3 mb-lg-0"><img alt="" class="img-fluid" src="image/sariw.jpg"></div>
 			</div>
 		</div>
 	</div>
-</section>
-
-
-					
-
-
+</section>					
 
 
          <!-- *************Footer***************-->
