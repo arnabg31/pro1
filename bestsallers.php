@@ -215,8 +215,11 @@
 			<div class="col-12 col-lg-8 col-xxl-7 text-center mx-auto">
 				<span class="text-muted">Showcase</span>
 				<h2 class="display-5 fw-bold">Our Gallery</h2>
-				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta harum ipsum venenatis metus sem veniam eveniet aperiam suscipit.</p>
-			</div>
+				<p class="justify">Experience the refreshing power of nature with CAMPHORIA our unique camphor-based air freshener, designed to create a calm, clean, and soothing atmosphere in your surroundings. Crafted with traditional camphor, these air fresheners effectively mask unwanted odors, while their natural antimicrobial properties help reduce bacteria, making your space not just fragrant but also healthier.</p>
+        <p class="classic">CAMPHORIA is more than just an air freshener; it's a holistic approach to enhancing your environment. Each pouch is infused with the essence of camphor, known for its calming effects, making it perfect for meditation spaces, bedrooms, or any area where tranquility is desired. The subtle yet effective fragrance lingers, providing a long-lasting freshness that transforms your space into a serene haven.</p>
+
+<p class="lead">Each camphor pouch is handmade with care by Team Anya, blending craftsmanship with wellness. Whether it's your home, car, or workspace, CAMPHORIA ensures a long-lasting and safe solution for fresh ai</p>
+          </div>
 		</div>
 		<div class="row py-3 align-items-center">
 			<div class="col-md-6 mt-md-0 mt-4">
@@ -261,7 +264,7 @@
                         <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
                       </svg>
                     </span>
-                    <span>Wheel Services</span>
+                    <span>Classic Sarees</span>
                   </li>
                   <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
                     <span class="text-primary">
@@ -269,7 +272,7 @@
                         <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
                       </svg>
                     </span>
-                    <span>Brake Services</span>
+                    <span>Hand Printed Sarees</span>
                   </li>
                   <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
                     <span class="text-primary">
@@ -277,7 +280,7 @@
                         <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
                       </svg>
                     </span>
-                    <span>Drivetrain Services</span>
+                    <span>Batik Sarees</span>
                   </li>
                   <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
                     <span class="text-primary">
@@ -285,7 +288,7 @@
                         <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
                       </svg>
                     </span>
-                    <span>Suspension Services</span>
+                    <span>Banarasi Silk Sarees</span>
                   </li>
                   <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
                     <span class="text-primary">
@@ -293,7 +296,23 @@
                         <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
                       </svg>
                     </span>
-                    <span>Frame Services</span>
+                    <span>Cotton Sarees</span>
+                  </li>
+                   <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Fancy Sarees</span>
+                  </li>
+                   <li class="py-1 d-flex align-items-center gap-2 col-sm-6">
+                    <span class="text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                        <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                      </svg>
+                    </span>
+                    <span>Chanderi Silk Sarees</span>
                   </li>
                 </ul>
               </div>
