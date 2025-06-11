@@ -127,11 +127,9 @@
       <div class="col-md-6">
         <div class="p-4 bg-secondary text-white rounded">
           <div class="embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item"
-              src=
-"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.1602802684192!2d77.39638073968018!3d28.504825075835775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce626851f7009%3A0x621185133cfd1ad1!2sGeeksforGeeks%20%7C%20Coding%20Classes!5e0!3m2!1sen!2sin!4v1702963476861!5m2!1sen!2sin"
-              allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+             <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.613640911973!2d88.27182417447192!3d23.074622079137242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8f3c57e478263%3A0x4b14f78f71a0f154!2sPundooah%20Station%20Rd%2C%20Pandua%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1749620918778!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             
           </div>
         </div>
       </div>
