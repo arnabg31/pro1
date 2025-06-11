@@ -25,18 +25,10 @@
 
 
 <!-- Navigator bar -->
-     <a class="navbar-brand" href="#">
-  </a>
-<section class="py-5">
+   
+
 	<nav class="navbar bg-light">
-		<div class="container">
-			<form class="d-lg-flex d-none align-items-center position-relative">
-				<div class="input-group align-items-center">
-<input aria-describedby="button-addon2" aria-label="Search" class="form-control" placeholder="Search" type="text"> <button class="btn bg-white border" id="button-addon2" type="button"><svg class="bi bi-search" fill="currentColor" height="20" viewbox="0 0 16 16" width="20" xmlns="http://www.w3.org/2000/svg">
-				<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path></svg></button>
-				</div>
-			</form>
-			<div>
+		
 			<!--	<a class="navbar-brand" href=""><img alt="Free Frontend Logo" class="img-fluid" height="" src="https://freefrontend.dev/wp-content/uploads/free-frontend-logo.png" width="300"></a>-->
 			</div>
 		</div>
@@ -55,7 +47,12 @@
 		<div class="d-flex align-items-center">
 				<p class="text-dark mb-0">Welcome to our website!</p>
 			</div>
-			
+			<form class="d-lg-flex d-none align-items-center position-relative">
+				<div class="input-group align-items-center">
+<input aria-describedby="button-addon2" aria-label="Search" class="form-control" placeholder="Search" type="text"> <button class="btn bg-white border" id="button-addon2" type="button"><svg class="bi bi-search" fill="currentColor" height="20" viewbox="0 0 16 16" width="20" xmlns="http://www.w3.org/2000/svg">
+				<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path></svg></button>
+				</div>
+			</form>
 			<!-- Social Media Icons -->
 			<div class="d-block">
 				<div class="d-flex ms-auto">
