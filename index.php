@@ -230,6 +230,10 @@
 </section>
 
 
+<!--move image-->
+
+
+
        <!-- *************Footer***************-->
 
 <?php include ("footer.php");?>
