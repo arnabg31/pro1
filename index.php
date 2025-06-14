@@ -40,7 +40,7 @@
 
 <div class="container-fluid d-flex justify-content-between align-items-center">
 			
-				<a class="navbar-brand" href="#"><img src="image/logo1.png" alt="Logo" style="width: 65px; height: 50px;"></a>
+				<a class="navbar-brand" href="index.php"><img src="image/logo1.png" alt="Logo" style="width: 65px; height: 50px;"></a>
                 <div class="d-flex align-items-center">
 				<h3 class="text-danger">The Artisan Boutiqe</h3>
 			</div>
@@ -184,7 +184,11 @@
 						</div>
 						<ul class="list-unstyled mt-3">
 							<li class="mb-3">Super Fast Delivery on all Orders</li>
-						</ul><a class="btn btn-primary btn-lg mt-4" href="">Learn more</a>
+						</ul>
+						<!--<a class="btn btn-primary btn-lg mt-4" href="lernmore.php">Learn more</a>-->
+						<form action="lernmore.php" method="get" target="_blank">
+        <button class="btn btn-primary btn-lg mt-4" type="submit">Learn more</button>
+    </form>
 					</div>
 				</div>
 			</div>
@@ -202,7 +206,11 @@
 						</div>
 						<ul class="list-unstyled mt-3">
 							<li class="mb-3">Exchange? we get your back</li>
-						</ul><a class="btn btn-primary btn-lg mt-4" href="">Learn more</a>
+						</ul>
+						<!--<a class="btn btn-primary btn-lg mt-4" href="">Learn more</a>-->
+						<form action="lernmore.php" method="get" target="_blank">
+        <button class="btn btn-primary btn-lg mt-4" type="submit">Learn more</button>
+    </form>
 					</div>
 				</div>
 			</div>
@@ -221,7 +229,11 @@
 						</div>
 						<ul class="list-unstyled mt-3">
 							<li class="mb-3">Pay with Peace of mind</li>
-						</ul><a class="btn btn-primary btn-lg mt-4" href="">Learn more</a>
+						</ul>
+						<!--<a class="btn btn-primary btn-lg mt-4" href="">Learn more</a>-->
+						<form action="lernmore.php" method="get" target="_blank">
+        <button class="btn btn-primary btn-lg mt-4" type="submit">Learn more</button>
+    </form>
 					</div>
 				</div>
 			</div>

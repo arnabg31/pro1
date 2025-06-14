@@ -42,7 +42,7 @@
 
 <div class="container-fluid d-flex justify-content-between align-items-center">
 			
-				<a class="navbar-brand" href="#"><img src="image/logo1.png" alt="Logo" style="width: 65px; height: 50px;"></a>
+				<a class="navbar-brand" href="index.php"><img src="image/logo1.png" alt="Logo" style="width: 65px; height: 50px;"></a>
                 <div class="d-flex align-items-center">
 				<h3 class="text-danger">The Artisan Boutiqe</h3>
 			</div>
