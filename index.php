@@ -84,6 +84,7 @@
             </nav>
 
         </div>
+					</br>
         <!-- ********* Slider Image *********-->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
