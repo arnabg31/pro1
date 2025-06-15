@@ -66,6 +66,7 @@
 		</div>
           
 					</nav>
+          
 
     <div class="container-fluid bg-info position-relative shadow ">
              <nav class="navbar navbar-expand-lg navbar-dark py-5 py-lg-0 px-0  px-lg-5">
@@ -276,7 +277,7 @@
 
 
 
-<!--hover image
+hover image
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     .img-hover-zoom {
@@ -302,7 +303,7 @@
       </div>
     </div>
   </div>
-</div>-->
+</div>
 
 
 
