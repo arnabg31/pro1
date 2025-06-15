@@ -102,7 +102,38 @@
 		</div>
 		<div class="row py-3 align-items-center">
 			<div class="col-md-6 mt-md-0 mt-4">
-				<div class="mb-5 mb-lg-3"><img class="img-fluid" src="image/R.jpg"></div>
+				<!--<div class="mb-5 mb-lg-3"><img class="img-fluid" src="image/R.jpg"></div>-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+	  <img src="image/ph.jpg" class="d-block w-100" alt="First Slide" style="height:300px; object-fit:cover;">
+    </div>
+    <div class="carousel-item">
+      <img src="image/pic9.jpg" class="d-block w-100" alt="Second Slide" style="height:300px; object-fit:cover;">
+    </div>
+    <div class="carousel-item">
+      <img src="image/pic6.jpg" class="d-block w-100" alt="Third Slide" style="height:300px; object-fit:cover;">
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 			</div>
 			<!--<div class="col-md-6 ps-md-5">
 				<div class="mb-5 mb-lg-3">

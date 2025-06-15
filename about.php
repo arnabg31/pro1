@@ -35,7 +35,7 @@
 				<path d="M2.5 12a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"></path></svg></a>
 </div>
 
-<div class="container-fluid d-flex justify-content-between align-items-center">
+       <div class="container-fluid d-flex justify-content-between align-items-center">
 			
 				<a class="navbar-brand" href="index.php"><img src="image/logo1.png" alt="Logo" style="width: 65px; height: 50px;"></a>
                 <div class="d-flex align-items-center">
@@ -63,6 +63,8 @@
 		</div>
           
 					</nav>
+
+          
 
     <div class="container-fluid bg-info position-relative shadow ">
              <nav class="navbar navbar-expand-lg navbar-dark py-5 py-lg-0 px-0  px-lg-5">
