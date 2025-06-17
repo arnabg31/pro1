@@ -66,7 +66,7 @@
 		</div>
           
 					</nav>
-          
+
 
     <div class="container-fluid bg-info position-relative shadow ">
              <nav class="navbar navbar-expand-lg navbar-dark py-5 py-lg-0 px-0  px-lg-5">
@@ -277,7 +277,7 @@
 
 
 
-hover image
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     .img-hover-zoom {
@@ -300,10 +300,25 @@ hover image
     <div class="col-md-4">
       <div class="img-hover-zoom">
         <img src="image/plain-silk-saree-with-golden-border_2048x2048.webp" class="img-fluid" alt="Zoom Image">
+        <h5 class="fw-bold text-center">NEW ARRIVAL SAREE</h5>
+            <div class="text-success text-center">
+              SHOP NOW
+  </div>
+            <div class="d-flex justify-content-center">
+            <i class="fa-solid fa-arrows-rotate"></i>
+            <i class="fa-solid fa-arrows-rotate"></i>
+              
+              </div>
+  </div>
       </div>
     </div>
   </div>
 </div>
+
+
+
+
+
 
 
 
