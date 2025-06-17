@@ -110,8 +110,7 @@ Our team at MarisGold Unisex Boutique is dedicated to providing a personalized s
   <section class="about-us py-5 bg-light">
     <div class="container">
       <div class="row">
-       
-        <div class="col-md-6">
+      <div class="col-md-6">
           <img src="image/saree3.jpg" alt="About Us" class="img-fluid rounded">
         </div>
         
