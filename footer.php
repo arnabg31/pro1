@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-info text-white">
+<footer class="text-center text-lg-start bg-info  text-white">
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
@@ -71,7 +71,7 @@
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
+    © 2025 Copyright:
     <a class="text-reset fw-bold" href="https://mdbootstrap.com/">artisan@gmail.com</a>
   </div>
   <!-- Copyright -->
