@@ -68,7 +68,7 @@
 					</nav>
 
 
-    <div class="container-fluid bg-warning   position-relative shadow ">
+    <div class="container-fluid bg-info  position-relative shadow ">
              <nav class="navbar navbar-expand-lg navbar-dark py-5 py-lg-0 px-0  px-lg-5">
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
