@@ -43,30 +43,6 @@
 
 
 
-<!-- Exchange Offer -->
-<div class="container">
-  <h2>Exchange Offer</h2>
-  <!-- Button to Open the Modal -->
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal1">
-    Lern More
-  </button>
-
-  <!-- The Modal -->
-  <div class="modal fade" id="myModal1">
-    <div class="modal-dialog modal-sm">
-      <div class="modal-content">
-        <p class="text-center text-success">Online shopping from a great selection at Exchange Offer Store ... End of dialog window. See Similar. Exchange Offer. Reviews. Brands. Price.</p>
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-  
-</div>
-
 
 
 </body>
