@@ -64,7 +64,7 @@
             <a class="navbar-brand" href="index.php"><img src="image\boutique-logo-design-template-free-vector.jpg"
                     alt="Logo" style="width: 90px; height: 80px;"></a>
             <div class="d-flex align-items-center">
-                <h3 class="text-danger">The Artisan Boutiqe</h3>
+                <h3 class="text-info">The Artisan Boutiqe</h3>
             </div>
             <div class="d-flex align-items-center">
                 <p class="text-dark mb-0">Welcome to our website!</p>
