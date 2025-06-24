@@ -88,7 +88,8 @@
         <!--best sallers header-->
 
         
-    <section class="py-5">
+   
+         <section class="py-5">
 	<div class="container">
 		<div class="row justify-content-center text-center mb-2 mb-lg-4">
 			<div class="col-12 col-lg-8 col-xxl-7 text-center mx-auto">
@@ -135,15 +136,8 @@
   </a>
 </div>
 			</div>
-			<!--<div class="col-md-6 ps-md-5">
-				<div class="mb-5 mb-lg-3">
-					<h4>A Catchy Title</h4>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusantium nulla, sequi cupiditate exercitationem sit incidunt rerum explicabo. Soluta beatae esse praesentium exercitationem vero harum pariatur adipisci qui veritatis est!</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta harum ipsum venenatis metus sem veniam eveniet aperiam suscipit.</p><a class="btn btn-lg btn-primary" href="">View Gallery</a>
-				</div>
-			</div>
-		</div>-->
-
+			
+      
 		 <div class="col-12 col-lg-6 col-xxl-6">
         <div class="row justify-content-lg-end justify-content-xxl-around">
           <div class="col-12 col-lg-11 col-xxl-10">
@@ -227,14 +221,15 @@
                 </ul>
               </div>
             </div>
-
-		<div class="row mt-2">
-			<div class="col-lg-3 col-md-6">
-				<div class="mb-3 mb-lg-0"><img alt="" class="img-fluid" src="image/kanchipuram-saree.jpg"></div>
+	<div class="row mt-2">
+			<div class="col-lg-3 col-md-6">        
+				<div class="mb-3 mb-lg-0">
+          <img alt="" class="img-fluid" src="image/kanchipuram-saree.jpg"></div>
 			</div>
 			<div class="col-lg-3 col-md-6">
 				<div class="mb-4 mb-lg-3"><img alt="" class="img-fluid" src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg"></div>
 			</div>
+      
 			<div class="col-lg-3 col-md-6">
 				<div class="mb-3 mb-lg-0"><img alt="" class="img-fluid" src="image/Shreeman0846E.jpg"></div>
 			</div>
@@ -243,11 +238,41 @@
 			</div>
 		</div>
 	</div>
-</section>					
+  </section>
+
+<section class="py-5">
+  <div class="row mt-2">
+			<div class="col-lg-3 col-md-6">
+         <div class="card-body p-3 pb-0">
+                      <div class="img-hover-zoom">
+                   <div class="mb-3 mb-lg-0"> <img src="image/kanchipuram-saree.jpg" class="img-fluid" alt="Kanchipuram Saree"></div>
+                      </div>
+                      <h5 class="card-title">Kanchipuram Saree</h5>
+                      <a href="https://www.kanchipuramsarees.com" class="btn btn-primary">Shop Now</a>
+                  </div>
+                        </div>
+                              <div class="col-lg-3 col-md-6">
+          <div class="card-body p-3 pb-0">
+                      <div class="img-hover-zoom">
+                   <div class="mb-3 mb-lg-0"> <img src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg" class="img-fluid" alt="Bridal Saree"></div>
+                      </div>
+                      <h5 class="card-title">Bridal Saree</h5>
+                      <a href="https://www.bridalsarees.com" class="btn btn-primary">Shop Now</a>
+                  </div>
+                        </div>
+                              <div class="col-lg-3 col-md-6">
+          <div class="card-body p-3 pb-0">
+                      <div class="img-hover-zoom">
+                    <div class="mb-3 mb-lg-0"> <img src="image/Shreeman0846E.jpg" class="img-fluid" alt="Classic Saree"></div>
+                      </div>
+                         
+                        </section>
 
 
-         <!-- *************Footer***************-->
+       
+  
+ <!-- *************Footer***************-->
 
-<?php include ("footer.php");?>
-                    </body>
-                    </html>
+    <?php include ("footer.php");?>
+            </body>
+            </html>
