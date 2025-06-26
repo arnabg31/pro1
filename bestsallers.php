@@ -221,10 +221,13 @@
                 </ul>
               </div>
             </div>
+
+
 	<div class="row mt-2">
 			<div class="col-lg-3 col-md-6">        
 				<div class="mb-3 mb-lg-0">
           <img alt="" class="img-fluid" src="image/kanchipuram-saree.jpg"></div>
+          <a href="https://www.kanchipuramsarees.com" class="btn btn-primary">Shop Now</a>
 			</div>
 			<div class="col-lg-3 col-md-6">
 				<div class="mb-4 mb-lg-3"><img alt="" class="img-fluid" src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg"></div>
@@ -240,39 +243,13 @@
 	</div>
   </section>
 
-<section class="py-5">
-  <div class="row mt-2">
-			<div class="col-lg-3 col-md-6">
-         <div class="card-body p-3 pb-0">
-                      <div class="img-hover-zoom">
-                   <div class="mb-3 mb-lg-0"> <img src="image/kanchipuram-saree.jpg" class="img-fluid" alt="Kanchipuram Saree"></div>
-                      </div>
-                      <h5 class="card-title">Kanchipuram Saree</h5>
-                      <a href="https://www.kanchipuramsarees.com" class="btn btn-primary">Shop Now</a>
-                  </div>
-                        </div>
-                              <div class="col-lg-3 col-md-6">
-          <div class="card-body p-3 pb-0">
-                      <div class="img-hover-zoom">
-                   <div class="mb-3 mb-lg-0"> <img src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg" class="img-fluid" alt="Bridal Saree"></div>
-                      </div>
-                      <h5 class="card-title">Bridal Saree</h5>
-                      <a href="https://www.bridalsarees.com" class="btn btn-primary">Shop Now</a>
-                  </div>
-                        </div>
-                              <div class="col-lg-3 col-md-6">
-          <div class="card-body p-3 pb-0">
-                      <div class="img-hover-zoom">
-                    <div class="mb-3 mb-lg-0"> <img src="image/Shreeman0846E.jpg" class="img-fluid" alt="Classic Saree"></div>
-                      </div>
-                         
-                        </section>
 
 
-       
-  
- <!-- *************Footer***************-->
+   <!-- *************Footer***************-->
 
     <?php include ("footer.php");?>
-            </body>
-            </html>
+</body>
+</html>
+
+ 
+  
