@@ -227,7 +227,10 @@
 			<div class="col-lg-3 col-md-6">        
 				<div class="mb-3 mb-lg-0">
           <img alt="" class="img-fluid" src="image/kanchipuram-saree.jpg"></div>
-          <a href="https://www.bing.com/search?q=kanchipuram+saree+image&FORM=AWRE" class="btn btn-primary">Shop Now</a>
+          <!--<a href="https://www.bing.com/search?q=kanchipuram+saree+image&FORM=AWRE" class="btn btn-primary">Shop Now</a>-->
+          <form action="lernmore.php" method="get" target="_blank">
+                                <button class="btn btn-primary  mt-4" type="submit">Shop Now</button>
+                            </form>
 			</div>
 			<div class="col-lg-3 col-md-6">
 				<div class="mb-4 mb-lg-3"><img alt="" class="img-fluid" src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg"></div>
