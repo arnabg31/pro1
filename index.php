@@ -194,9 +194,14 @@
                           <div class="img-hover-zoom">
                             <div class="mb-4"><img class="img-fluid" src="image/wsaree.jpg"></div>
                             <h5 class="fw-bold">NEW ARRIVAL SAREE</h5>
-                            <div class="text-muted">
+                             <form action="shop.php" method="get" target="_blank">
+                                 <button><div class="text-muted">
                                 SHOP NOW
-                            </div>
+</button>
+                                  <!--<form action="shop.php" method="get" target="_blank">
+                                <button class="btn btn-primary btn-lg mt-4" type="submit">SHOP NOW</button>-->
+                            </form>
+                            
                             <div class="d-flex justify-content-center mt-4">
                                 <a class="btn btn-sm me-2" href=""><svg class="bi bi-facebook" fill="currentColor"
                                         height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
@@ -409,9 +414,9 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
 <div class="container">                
 <div class="contentbar">                
-        <!-- Start row -->
+        
         <div class="row">
-            <!-- Start col -->
+            
             <div class="col-md-12 col-lg-12 col-xl-12">
                 <div class="card m-b-30">
                     <div class="card-header">
@@ -535,9 +540,9 @@
                     </div>
                 </div>
             </div>
-            <!-- End col -->
+            
         </div>
-        <!-- End row -->
+        
     </div>
     </div>
 </div>
