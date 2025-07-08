@@ -194,7 +194,7 @@
                           <div class="img-hover-zoom">
                             <div class="mb-4"><img class="img-fluid" src="image/wsaree.jpg"></div>
                             <h5 class="fw-bold">NEW ARRIVAL SAREE</h5>
-                             <form action="shop.php" method="get" target="_blank">
+                             <form action="lernmore.php" method="get" target="_blank">
                                  <button><div class="text-muted">
                                 SHOP NOW
 </button>
