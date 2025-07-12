@@ -1,4 +1,4 @@
-// Description: This code creates a simple HTML page with two buttons that open modals with information about "Fast Delivery" and "Exchange Offer".
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -163,7 +163,7 @@
             </div>
             
         </div>
-        
+        <h3>JHUMA BETAL</h3>
     </div>
     </div>
 </div>
