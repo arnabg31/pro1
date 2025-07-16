@@ -233,7 +233,11 @@
                             </form>
 			</div>
 			<div class="col-lg-3 col-md-6">
-				<div class="mb-4 mb-lg-3"><img alt="" class="img-fluid" src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg"></div>
+				<div class="mb-4 mb-lg-3"><img alt="" class="img-fluid" src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg">
+                    <form action="shopnow (2).php" method="get" target="_blank">
+                                <button class="btn btn-primary  mt-4" type="submit">Shop Now</button>
+                            </form>
+                </div>
 			</div>
       
 			<div class="col-lg-3 col-md-6">
