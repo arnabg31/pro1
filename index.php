@@ -33,6 +33,39 @@
     .img-hover-zoom:hover img {
         transform: scale(1.1);
     }
+
+    .img-flip {
+  perspective: 1000px;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 1rem;
+}
+.flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.img-flip:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+.flip-front, .flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  object-fit: cover;
+}
+.flip-front {
+  z-index: 2;
+}
+.flip-back {
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+    
+
     </style>
     <script src="https://kit.fontawesome.com/a7612e0a07.js" crossorigin="anonymous"></script>
 
@@ -191,8 +224,12 @@
                 <div class="col-md-4">
                     <div class="card text-center mb-3">
                         <div class="card-body p-0 pb-4">
-                          <div class="img-hover-zoom">
-                            <div class="mb-4"><img class="img-fluid" src="image/wsaree.jpg"></div>
+                          <div class="img-flip">
+                        <div class="flip-inner">
+                            <div class="mb-4"><img class="img-fluid" src="image/wsaree.jpg" alt="Front">
+    <img class="flip-back img-fluid" src="image/wsaree2.jpg" alt="Back">
+</div>
+</div>
                             <h5 class="fw-bold">NEW ARRIVAL SAREE</h5>
                              <form action="shopnow (2).php" method="get" target="_blank">
                                  <button><div class="text-muted">

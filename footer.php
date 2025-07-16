@@ -1,15 +1,15 @@
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-dark  text-white">
   <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  <!--<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"> -->
     <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
+    <!-- <div class="me-5 d-none d-lg-block">
       <span>Get connected with us on social networks:</span>
-    </div>
+    </div> -->
     <!-- Left -->
 
     <!-- Right -->
-    <div>
+    <!--<div>
       <a href="" class="me-4 text-reset">
         <i class="fab fa-facebook-f"></i>
       </a>
@@ -28,7 +28,7 @@
       <a href="" class="me-4 text-reset">
         <i class="fab fa-github"></i>
       </a>
-    </div>
+    </div> -->
     <!-- Right -->
   </section>
   <!-- Section: Social media -->
@@ -59,8 +59,8 @@
             <i class="fas fa-envelope me-3"></i>
             artisan@.com
           </p>
-          <p><i class="fas fa-phone me-3"></i> 9547114694</p>
-          <p><i class="fas fa-print me-3"></i> 7811023011</p>
+          <p><i class="fas fa-phone me-3"></i> 9547114694 / 7811023011</p>
+         <!-- <p><i class="fas fa-print me-3"></i> 7811023011</p> -->
         </div>
         <!-- Grid column -->
       </div>
