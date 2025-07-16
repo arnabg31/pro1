@@ -232,9 +232,17 @@
                       <div class="img-hover-zoom">
                         <div class="mb-4"><img class="img-fluid" src="image/kids.jpg"></div>
                         <h5 class="fw-bold">CHILDREN COLLECTION</h5>
-                        <div class="text-muted">
+                       <!-- <div class="text-muted">
                             BOOK NOW
-                        </div>
+                        </div>-->
+                                                     <form action="shopnow (2).php" method="get" target="_blank">
+                                 <button><div class="text-muted">
+                                SHOP NOW
+</button>
+                                  <!--<form action="shop.php" method="get" target="_blank">
+                                <button class="btn btn-primary btn-lg mt-4" type="submit">SHOP NOW</button>-->
+                            </form>
+                            
                         <div class="d-flex justify-content-center mt-4">
                             <a class="btn btn-sm me-2" href=""><svg class="bi bi-facebook" fill="currentColor"
                                     height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
@@ -264,9 +272,17 @@
                       <div class="img-hover-zoom">
                         <div class="mb-4"><img class="img-fluid" src="image/kurta.jpg"></div>
                         <h5 class="fw-bold">FASHION OUR CHOICE</h5>
-                        <div class="text-muted">
+                        <!--<div class="text-muted">
                             FIND NOW
-                        </div>
+                        </div>-->
+                                                     <form action="shopnow (2).php" method="get" target="_blank">
+                                 <button><div class="text-muted">
+                                SHOP NOW
+</button>
+                                  <!--<form action="shop.php" method="get" target="_blank">
+                                <button class="btn btn-primary btn-lg mt-4" type="submit">SHOP NOW</button>-->
+                            </form>
+                            
                         <div class="d-flex justify-content-center mt-4">
                             <a class="btn btn-sm me-2" href=""><svg class="bi bi-facebook" fill="currentColor"
                                     height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
