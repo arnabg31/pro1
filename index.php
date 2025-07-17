@@ -218,18 +218,17 @@
                 </div>
             </div>
 
-            <!-- Model Collection -->
+            
 
+            <!-- Model Collection -->
+            
+            
             <div class="row">
                 <div class="col-md-4">
                     <div class="card text-center mb-3">
                         <div class="card-body p-0 pb-4">
-                          <div class="img-flip">
-                        <div class="flip-inner">
-                            <div class="mb-4"><img class="img-fluid" src="image/wsaree.jpg" alt="Front">
-    <img class="flip-back img-fluid" src="image/wsaree2.jpg" alt="Back">
-</div>
-</div>
+                          <div class="img-hover-zoom">
+                            <div class="mb-4"><img class="img-fluid" src="image/wsaree.jpg"></div>
                             <h5 class="fw-bold">NEW ARRIVAL SAREE</h5>
                              <form action="shopnow (2).php" method="get" target="_blank">
                                  <button><div class="text-muted">
@@ -269,7 +268,7 @@
                       <div class="img-hover-zoom">
                         <div class="mb-4"><img class="img-fluid" src="image/kids.jpg"></div>
                         <h5 class="fw-bold">CHILDREN COLLECTION</h5>
-                       <!-- <div class="text-muted">
+                        <!--<div class="text-muted">
                             BOOK NOW
                         </div>-->
                                                      <form action="shopnow (2).php" method="get" target="_blank">
@@ -279,7 +278,6 @@
                                   <!--<form action="shop.php" method="get" target="_blank">
                                 <button class="btn btn-primary btn-lg mt-4" type="submit">SHOP NOW</button>-->
                             </form>
-                            
                         <div class="d-flex justify-content-center mt-4">
                             <a class="btn btn-sm me-2" href=""><svg class="bi bi-facebook" fill="currentColor"
                                     height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
@@ -309,7 +307,7 @@
                       <div class="img-hover-zoom">
                         <div class="mb-4"><img class="img-fluid" src="image/kurta.jpg"></div>
                         <h5 class="fw-bold">FASHION OUR CHOICE</h5>
-                        <!--<div class="text-muted">
+                       <!-- <div class="text-muted">
                             FIND NOW
                         </div>-->
                                                      <form action="shopnow (2).php" method="get" target="_blank">
@@ -319,7 +317,6 @@
                                   <!--<form action="shop.php" method="get" target="_blank">
                                 <button class="btn btn-primary btn-lg mt-4" type="submit">SHOP NOW</button>-->
                             </form>
-                            
                         <div class="d-flex justify-content-center mt-4">
                             <a class="btn btn-sm me-2" href=""><svg class="bi bi-facebook" fill="currentColor"
                                     height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
@@ -343,11 +340,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-    </section>
 
-
+                  
 
 
     <!-- ********* Process *********-->
@@ -465,5 +459,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
