@@ -1,87 +1,76 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pro1</title>
-    <!--fav icons-->
-    <link rel="icon" href="image\logo1.png" type="image/x-icon">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-
-    <!-- JS -->
-    <script src="js/bootstrap.js"></script>
-
-    <!--google font-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-
-    <!---Font awesome-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-    .img-hover-zoom {
-        overflow: hidden;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boutique Header</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Optional: Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    .navbar {
+      background-color: rgba(255, 230, 238, 1);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     }
-
-    .img-hover-zoom img {
-        transition: transform 0.5s ease;
+    .navbar-brand {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      font-weight: 700;
     }
-
-    .img-hover-zoom:hover img {
-        transform: scale(1.1);
+    .nav-link {
+      font-weight: 500;
+      color: #444 !important;
     }
-    </style>
-    <script src="https://kit.fontawesome.com/a7612e0a07.js" crossorigin="anonymous"></script>
+    .nav-link:hover {
+      color: #e75480 !important;
+    }
+    .btn-cart {
+      background-color: #ffb6c1;
+      color: white;
+      border: none;
+    }
+    .btn-cart:hover {
+      background-color: #ff69b4;
+    }
+  </style>
+</head>
+<body>
 
+<!-- Boutique Header -->
+<nav class="navbar navbar-expand-lg navbar-light">
 
-    <!-- ********* Header *********-->
-
-
-    <!-- Navigator bar -->
-
-
-    <nav class="navbar bg-light">
-
-        <!--	<a class="navbar-brand" href=""><img alt="Free Frontend Logo" class="img-fluid" height="" src="https://freefrontend.dev/wp-content/uploads/free-frontend-logo.png" width="300"></a>-->
-        </div>
-        </div>
-        <div class="d-flex align-items-center">
-            <!--<a class="btn btn-primary d-none d-lg-block" href="https://freefrontend.dev/" target="_blank">Free Frontend</a>-->
-            <a class="btn btn-primary d-lg-none" href="https://freefrontend.dev/" target="_blank"><svg
-                    class="bi bi-list" fill="currentColor" height="20" viewbox="0 0 16 16" width="20"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M2.5 12a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z">
-                    </path>
-                </svg></a>
-        </div>
-
-        <div class="container-fluid d-flex justify-content-between align-items-center">
-
-            <a class="navbar-brand" href="index.php"><img src="image\logoch.png"
-                    alt="Logo" style="width: 90px; height: 80px;"></a>
-            <div class="d-flex align-items-center">
-                <h3 class="text-info">The Artisan Boutiqe</h3>
-            </div>
-            <div class="d-flex align-items-center">
-                <p class="text-dark mb-0">Welcome to our website!</p>
-            </div>
-            <form class="d-lg-flex d-none align-items-center position-relative">
-                <div class="input-group align-items-center">
-                    <input aria-describedby="button-addon2" aria-label="Search" class="form-control"
-                        placeholder="Search" type="text"> <button class="btn bg-white border" id="button-addon2"
-                        type="button"><svg class="bi bi-search" fill="currentColor" height="20" viewbox="0 0 16 16"
-                            width="20" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
-                            </path>
-                        </svg></button>
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+<a class="navbar-brand" href="index.php"><img src="image\logoch.png"
+                    alt="Logo" style="width: 120px; height: 100px;"></a>
+  <div class="container">
+    <a class="navbar-brand" href="#">The Artisan Boutique</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBoutique" aria-controls="navbarBoutique" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav font-weight-bold mx-auto py-0 text-left">
+                    <a href="index.php" class="nav-item nav-link active"><i class="fa-solid fa-house"></i>Home </a>
+                    <a href="about.php" class="nav-item nav-link"><i class="fa-solid fa-address-card"></i> About Us </a>
+                    <a href="bestsallers.php" class="nav-item nav-link "><i class="fa-solid fa-chess-board"></i> Best
+                        Sallers </a>
+                    <a href="collection.php" class="nav-item nav-link"> <i class="fa-solid fa-comments-dollar"></i> New Arrivals
+                    </a>
+                     <a href="amount.php" class="nav-item nav-link"> <i class="fa-solid fa-comments-dollar"></i> Amount
+                    </a>
+                    <a href="contact.php" class="nav-item nav-link"><i class="fa-regular fa-id-badge"></i> Contact </a>
                 </div>
-            </form>
-            <!-- Social Media Icons -->
+            </div>
+        </nav>
+
+    </div>
+      <button class="btn btn-cart ml-lg-3" type="button">
+        <i class="bi bi-bag-fill"></i> Cart
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Social Media Icons -->
             <div class="d-block">
                 <div class="d-flex ms-auto">
                     <a class="text-dark border border-2 border-dark rounded-circle d-flex align-items-center justify-content-center"
@@ -112,28 +101,7 @@
 
     </nav>
 
-
-    <div class="container-fluid bg-dark  position-relative shadow ">
-        <nav class="navbar navbar-expand-lg navbar-dark py-5 py-lg-0 px-0  px-lg-5">
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav font-weight-bold mx-auto py-0 text-left">
-                    <a href="index.php" class="nav-item nav-link active"><i class="fa-solid fa-house"></i>HOME </a>
-                    <a href="about.php" class="nav-item nav-link"><i class="fa-solid fa-address-card"></i> ABOUT US </a>
-                    <a href="bestsallers.php" class="nav-item nav-link "><i class="fa-solid fa-chess-board"></i> Best
-                        Sallers </a>
-                    <a href="amount.php" class="nav-item nav-link"> <i class="fa-solid fa-comments-dollar"></i> Amount
-                    </a>
-                    <a href="contact.php" class="nav-item nav-link"><i class="fa-regular fa-id-badge"></i> Contact </a>
-                </div>
-            </div>
-        </nav>
-
-    </div>
-    </br>
-    <!-- ********* Slider Image *********-->
+ <!-- ********* Slider Image *********-->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -555,11 +523,7 @@
 
     <?php include ("footer.php");?>
 
-    <!-- Bootstrap JS + dependencies -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
+   
 </body>
 
 </html>
