@@ -33,6 +33,39 @@
     .img-hover-zoom:hover img {
         transform: scale(1.1);
     }
+
+    .img-flip {
+  perspective: 1000px;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 1rem;
+}
+.flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.img-flip:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+.flip-front, .flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  object-fit: cover;
+}
+.flip-front {
+  z-index: 2;
+}
+.flip-back {
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+    
+
     </style>
     <script src="https://kit.fontawesome.com/a7612e0a07.js" crossorigin="anonymous"></script>
 
@@ -185,8 +218,11 @@
                 </div>
             </div>
 
-            <!-- Model Collection -->
+            
 
+            <!-- Model Collection -->
+            
+            
             <div class="row">
                 <div class="col-md-4">
                     <div class="card text-center mb-3">
@@ -194,7 +230,7 @@
                           <div class="img-hover-zoom">
                             <div class="mb-4"><img class="img-fluid" src="image/wsaree.jpg"></div>
                             <h5 class="fw-bold">NEW ARRIVAL SAREE</h5>
-                             <form action="lernmore.php" method="get" target="_blank">
+                             <form action="shopnow (2).php" method="get" target="_blank">
                                  <button><div class="text-muted">
                                 SHOP NOW
 </button>
@@ -232,9 +268,16 @@
                       <div class="img-hover-zoom">
                         <div class="mb-4"><img class="img-fluid" src="image/kids.jpg"></div>
                         <h5 class="fw-bold">CHILDREN COLLECTION</h5>
-                        <div class="text-muted">
+                        <!--<div class="text-muted">
                             BOOK NOW
-                        </div>
+                        </div>-->
+                                                     <form action="shopnow (2).php" method="get" target="_blank">
+                                 <button><div class="text-muted">
+                                SHOP NOW
+</button>
+                                  <!--<form action="shop.php" method="get" target="_blank">
+                                <button class="btn btn-primary btn-lg mt-4" type="submit">SHOP NOW</button>-->
+                            </form>
                         <div class="d-flex justify-content-center mt-4">
                             <a class="btn btn-sm me-2" href=""><svg class="bi bi-facebook" fill="currentColor"
                                     height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
@@ -264,9 +307,16 @@
                       <div class="img-hover-zoom">
                         <div class="mb-4"><img class="img-fluid" src="image/kurta.jpg"></div>
                         <h5 class="fw-bold">FASHION OUR CHOICE</h5>
-                        <div class="text-muted">
+                       <!-- <div class="text-muted">
                             FIND NOW
-                        </div>
+                        </div>-->
+                                                     <form action="shopnow (2).php" method="get" target="_blank">
+                                 <button><div class="text-muted">
+                                SHOP NOW
+</button>
+                                  <!--<form action="shop.php" method="get" target="_blank">
+                                <button class="btn btn-primary btn-lg mt-4" type="submit">SHOP NOW</button>-->
+                            </form>
                         <div class="d-flex justify-content-center mt-4">
                             <a class="btn btn-sm me-2" href=""><svg class="bi bi-facebook" fill="currentColor"
                                     height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
@@ -290,15 +340,15 @@
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-    </section>
 
-
+                  
 
 
     <!-- ********* Process *********-->
+   
 
+    
+       
     <section class="py-5">
         <div class="container">
             <div class="row justify-content-center text-center mb-2 mb-lg-4">
@@ -343,7 +393,6 @@
                     <div class="card text-center border-0">
                         <div class="card-body bg-light py-5">
                             <div class="mb-3 mx-auto">
-
                                 <i class="fa-solid fa-arrows-rotate"></i>
                                 <path
                                     d="M9.5 2.672a.5.5 0 1 0 1 0V.843a.5.5 0 0 0-1 0v1.829Zm4.5.035A.5.5 0 0 0 13.293 2L12 3.293a.5.5 0 1 0 .707.707L14 2.707ZM7.293 4A.5.5 0 1 0 8 3.293L6.707 2A.5.5 0 0 0 6 2.707L7.293 4Zm-.621 2.5a.5.5 0 1 0 0-1H4.843a.5.5 0 1 0 0 1h1.829Zm8.485 0a.5.5 0 1 0 0-1h-1.829a.5.5 0 0 0 0 1h1.829ZM13.293 10A.5.5 0 1 0 14 9.293L12.707 8a.5.5 0 1 0-.707.707L13.293 10ZM9.5 11.157a.5.5 0 0 0 1 0V9.328a.5.5 0 0 0-1 0v1.829Zm1.854-5.097a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L8.646 5.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0l1.293-1.293Zm-3 3a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L.646 13.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0L8.354 9.06Z">
@@ -393,162 +442,11 @@
             </div>
         </div>
     </section>
-
-
-
-<!-- ********* Online Purchase *********-->
-
-<section class="py-5">
-    <div class="container">
-        <div class="row justify-content-center text-center mb-2 mb-lg-4">
-            <div class="col-12 col-lg-8 col-xxl-7 text-center mx-auto">
-                <span class="text-muted"></span>
-                <h2 class="display-5 fw-bold">Online Purchase</h2>
-                <p class="lead">
-                    Online shopping is a form of electronic commerce that allows consumers to directly buy goods or
-                    services from a seller over the Internet using a web browser or a mobile app.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
-<div class="container">                
-<div class="contentbar">                
+    
+                                                        
+                                                      
+                                                                                                     
         
-        <div class="row">
-            
-            <div class="col-md-12 col-lg-12 col-xl-12">
-                <div class="card m-b-30">
-                    <div class="card-header">
-                        <h5 class="card-title">Cart</h5>
-                    </div>
-                    <div class="card-body">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-10 col-xl-8">
-                                <div class="cart-container">
-                                    <div class="cart-head">
-                                        <div class="table-responsive">
-                                            <table class="table table-borderless">
-                                                <thead>
-                                                    <tr>
-                                                        <th scope="col">#</th>
-                                                        <th scope="col">Action</th>                                               
-                                                        <th scope="col">Photo</th>
-                                                        <th scope="col">Product</th>
-                                                        <th scope="col">Qty</th>
-                                                        <th scope="col">Price</th>
-                                                        <th scope="col" class="text-right">Total</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <th scope="row">1</th>
-                                                        <td><a href="#" class="text-danger"><i class="ri-delete-bin-3-line"></i></a></td>
-                                                        <td><img src="https://themesbox.in/admin-templates/olian/html/light-vertical/assets/images/ecommerce/product_01.svg" class="img-fluid" width="35" alt="product"></td>
-                                                        <td>Apple Watch</td>
-                                                        <td>
-                                                            <div class="form-group mb-0">
-                                                                <input type="number" class="form-control cart-qty" name="cartQty1" id="cartQty1" value="1">
-                                                            </div>
-                                                        </td>
-                                                        <td><i class="fa-solid fa-indian-rupee-sign"></i>10</td>
-                                                        <td class="text-right"><i class="fa-solid fa-indian-rupee-sign"></i>500</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">2</th>
-                                                       <td><a href="#" class="text-danger"><i class="ri-delete-bin-3-line"></i></a></td>
-                                                        <td><img src="https://themesbox.in/admin-templates/olian/html/light-vertical/assets/images/ecommerce/product_02.svg" class="img-fluid" width="35" alt="product"></td>
-                                                        <td>Apple iPhone</td>
-                                                        <td>
-                                                            <div class="form-group mb-0">
-                                                                <input type="number" class="form-control cart-qty" name="cartQty2" id="cartQty2" value="1">
-                                                            </div>
-                                                        </td>
-                                                        <td><i class="fa-solid fa-indian-rupee-sign"></i>20</td>
-                                                        <td class="text-right"><i class="fa-solid fa-indian-rupee-sign"></i>200</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="row">3</th>
-                                                        <td><a href="#" class="text-danger"><i class="ri-delete-bin-3-line"></i></a></td>
-                                                        <td><img src="https://themesbox.in/admin-templates/olian/html/light-vertical/assets/images/ecommerce/product_03.svg" class="img-fluid" width="35" alt="product"></td>
-                                                        <td>Apple iPad</td>
-                                                        <td>
-                                                            <div class="form-group mb-0">
-                                                                <input type="number" class="form-control cart-qty" name="cartQty3" id="cartQty3" value="1">
-                                                            </div>
-                                                        </td>
-                                                        <td><i class="fa-solid fa-indian-rupee-sign"></i>30</td>
-                                                        <td class="text-right"><i class="fa-solid fa-indian-rupee-sign"></i>300</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                    <div class="cart-body">
-                                        <div class="row">
-                                            <div class="col-md-12 order-2 order-lg-1 col-lg-5 col-xl-6">
-                                                <div class="order-note">
-                                                    <form>
-                                                        <div class="form-group">
-                                                            <div class="input-group">
-                                                                <input type="search" class="form-control" placeholder="Coupon Code" aria-label="Search" aria-describedby="button-addonTags">
-                                                                <div class="input-group-append">
-                                                                    <button class="input-group-text" type="submit" id="button-addonTags">Apply</button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <label for="specialNotes">Please Select your Address order:</label>
-                                                            <textarea class="form-control" name="specialNotes" id="specialNotes" rows="3" placeholder="Message here"></textarea>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12 order-1 order-lg-2 col-lg-7 col-xl-6">
-                                                <div class="order-total table-responsive ">
-                                                    <table class="table table-borderless text-right">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>Sub Total :</td>
-                                                                <td><i class="fa-solid fa-indian-rupee-sign"></i>000.00</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Shipping :</td>
-                                                                <td><i class="fa-solid fa-indian-rupee-sign"></i>0.00</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Tax(10%) :</td>
-                                                                <td><i class="fa-solid fa-indian-rupee-sign"></i>00.00</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="f-w-7 font-18"><h4>Amount :</h4></td>
-                                                                <td class="f-w-7 font-18"><h4><i class="fa-solid fa-indian-rupee-sign"></i>0000.00</h4></td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="cart-footer text-right">
-                                        <button type="button" class="btn btn-info my-1"><i class="ri-save-line mr-2"></i>Update Cart</button>
-                                        <a href="page-checkout.html" class="btn btn-success my-1">Proceed to Checkout<i class="ri-arrow-right-line ml-2"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-        
-    </div>
-    </div>
-</div>
-</section>
-        </div>
-
 
 
     <!-- *************Footer***************-->
@@ -561,5 +459,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
