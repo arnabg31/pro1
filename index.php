@@ -65,7 +65,36 @@
   z-index: 1;
 }
     
-
+.img-flip {
+  perspective: 1000px;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 1rem;
+}
+.flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.img-flip:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+.flip-front, .flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  object-fit: cover;
+}
+.flip-front {
+  z-index: 2;
+}
+.flip-back {
+  transform: rotateY(180deg);
+  z-index: 1;
+}
     </style>
     <script src="https://kit.fontawesome.com/a7612e0a07.js" crossorigin="anonymous"></script>
 
