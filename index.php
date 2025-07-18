@@ -345,7 +345,7 @@
                             </div> -->
                             <div class="img-flip mb-3">
                                 <div class="flip-inner">
-                                    <img class="flip-front img-fluid" src="image/kids.jpg" alt="Front">
+                                    <img class="flip-front img-fluid" src="image/kurta.jpg" alt="Front">
                                     <img class="flip-back img-fluid" src="image/saree1.jpg" alt="Back">
                                 </div>
                             </div>
