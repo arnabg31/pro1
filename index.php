@@ -35,66 +35,70 @@
     }
 
     .img-flip {
-  perspective: 1000px;
-  width: 100%;
-  height: 250px;
-  margin-bottom: 1rem;
-}
-.flip-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-}
-.img-flip:hover .flip-inner {
-  transform: rotateY(180deg);
-}
-.flip-front, .flip-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  object-fit: cover;
-}
-.flip-front {
-  z-index: 2;
-}
-.flip-back {
-  transform: rotateY(180deg);
-  z-index: 1;
-}
-    
-.img-flip {
-  perspective: 1000px;
-  width: 100%;
-  height: 250px;
-  margin-bottom: 1rem;
-}
-.flip-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-}
-.img-flip:hover .flip-inner {
-  transform: rotateY(180deg);
-}
-.flip-front, .flip-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  object-fit: cover;
-}
-.flip-front {
-  z-index: 2;
-}
-.flip-back {
-  transform: rotateY(180deg);
-  z-index: 1;
-}
+        perspective: 1000px;
+        width: 100%;
+        height: 450px;
+        margin-bottom: 1rem;
+        position: relative;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    .flip-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+    }
+
+    .flip-front,
+    .flip-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        /* Remove border-radius or padding if present */
+    }
+
+    .flip-front {
+        z-index: 2;
+    }
+
+    .flip-back {
+        transform: rotateY(180deg);
+        z-index: 1;
+    }
+
+   
+
+  
+
+    .img-flip:hover .flip-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-front,
+    .flip-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        object-fit: cover;
+    }
+
+    .flip-front {
+        z-index: 2;
+    }
+
+    .flip-back {
+        transform: rotateY(180deg);
+        z-index: 1;
+    }
     </style>
     <script src="https://kit.fontawesome.com/a7612e0a07.js" crossorigin="anonymous"></script>
 
@@ -123,8 +127,8 @@
 
         <div class="container-fluid d-flex justify-content-between align-items-center">
 
-            <a class="navbar-brand" href="index.php"><img src="image\logoch.png"
-                    alt="Logo" style="width: 90px; height: 80px;"></a>
+            <a class="navbar-brand" href="index.php"><img src="image\logoch.png" alt="Logo"
+                    style="width: 90px; height: 80px;"></a>
             <div class="d-flex align-items-center">
                 <h3 class="text-info">The Artisan Boutiqe</h3>
             </div>
@@ -251,23 +255,110 @@
 
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card text-center mb-3">
-                        <div class="card-body p-0 pb-4">
-                          <div class="img-flip">
-                        <div class="flip-inner">
-                            <div class="mb-4"><img class="img-fluid" src="image/wsaree.jpg" alt="Front">
-    <img class="flip-back img-fluid" src="image/wsaree2.jpg" alt="Back">
-</div>
-</div>
+                    <div class="card text-center mb-3 h-100 d-flex flex-column">
+                        <div class="card-body p-0 pb-4 d-flex flex-column">
+                            <div class="img-flip mb-3">
+                                <div class="flip-inner">
+                                    <img class="flip-front img-fluid" src="image/wsaree.jpg" alt="Front">
+                                    <img class="flip-back img-fluid" src="image/saree1.jpg" alt="Back">
+                                </div>
+                            </div>
                             <h5 class="fw-bold">NEW ARRIVAL SAREE</h5>
-                             <form action="shopnow (2).php" method="get" target="_blank">
-                                 <button><div class="text-muted">
-                                SHOP NOW
-</button>
-                                  <!--<form action="shop.php" method="get" target="_blank">
-                                <button class="btn btn-primary btn-lg mt-4" type="submit">SHOP NOW</button>-->
+                            <form action="shopnow (2).php" method="get" target="_blank">
+                                <button class="btn btn-primary btn-lg mt-2" type="submit">
+                                    SHOP NOW
+                                </button>
                             </form>
-                            
+                            <div class="d-flex justify-content-center mt-4">
+                                <a class="btn btn-sm me-2" href=""><svg class="bi bi-facebook" fill="currentColor"
+                                        height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
+                                        </path>
+                                    </svg></a> <a class="btn btn-sm me-2" href=""><svg class="bi bi-twitter"
+                                        fill="currentColor" height="16" viewbox="0 0 16 16" width="16"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z">
+                                        </path>
+                                    </svg></a> <a class="btn btn-sm" href=""><svg class="bi bi-linkedin"
+                                        fill="currentColor" height="16" viewbox="0 0 16 16" width="16"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z">
+                                        </path>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center mb-3 h-100 d-flex flex-column">
+                        <div class="card-body p-0 pb-4 d-flex flex-column">
+                            <!-- <div class="img-hover-zoom mb-3">
+                                <div class="mb-4"><img class="img-fluid" src="image/kids.jpg"></div>
+                            </div> -->
+                            <div class="img-flip mb-3">
+                                <div class="flip-inner">
+                                    <img class="flip-front img-fluid" src="image/kids.jpg" alt="Front">
+                                    <img class="flip-back img-fluid" src="image/saree1.jpg" alt="Back">
+                                </div>
+                            </div>
+                            <h5 class="fw-bold">CHILDREN COLLECTION</h5>
+                            <!-- <div class="text-muted">
+                            BOOK NOW
+                        </div>-->
+                            <form action="shopnow (2).php" method="get" target="_blank">
+                                <button class="btn btn-primary btn-lg mt-2" type="submit">
+                                    SHOP NOW
+                                </button>
+                            </form>
+
+                            <div class="d-flex justify-content-center mt-4">
+                                <a class="btn btn-sm me-2" href=""><svg class="bi bi-facebook" fill="currentColor"
+                                        height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
+                                        </path>
+                                    </svg></a> <a class="btn btn-sm me-2" href=""><svg class="bi bi-twitter"
+                                        fill="currentColor" height="16" viewbox="0 0 16 16" width="16"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z">
+                                        </path>
+                                    </svg></a> <a class="btn btn-sm" href=""><svg class="bi bi-linkedin"
+                                        fill="currentColor" height="16" viewbox="0 0 16 16" width="16"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z">
+                                        </path>
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center mb-3 h-100 d-flex flex-column">
+                            <div class="card-body p-0 pb-4 d-flex flex-column">
+                           <!-- <div class="img-hover-zoom mb-3">
+                                <div class="mb-4"><img class="img-fluid" src="image/kurta.jpg"></div>
+                            </div> -->
+                            <div class="img-flip mb-3">
+                                <div class="flip-inner">
+                                    <img class="flip-front img-fluid" src="image/kids.jpg" alt="Front">
+                                    <img class="flip-back img-fluid" src="image/saree1.jpg" alt="Back">
+                                </div>
+                            </div>
+                            <h5 class="fw-bold">FASHION OUR CHOICE</h5>
+                            <!--<div class="text-muted">
+                            FIND NOW
+                        </div>-->
+                            <form action="shopnow (2).php" method="get" target="_blank">
+                                <button class="btn btn-primary btn-lg mt-2" type="submit">
+                                    SHOP NOW
+                                </button>
+                            </form>
+
                             <div class="d-flex justify-content-center mt-4">
                                 <a class="btn btn-sm me-2" href=""><svg class="bi bi-facebook" fill="currentColor"
                                         height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
@@ -292,87 +383,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card text-center mb-3">
-                    <div class="card-body p-0 pb-4">
-                      <div class="img-hover-zoom">
-                        <div class="mb-4"><img class="img-fluid" src="image/kids.jpg"></div>
-                        <h5 class="fw-bold">CHILDREN COLLECTION</h5>
-                       <!-- <div class="text-muted">
-                            BOOK NOW
-                        </div>-->
-                                                     <form action="shopnow (2).php" method="get" target="_blank">
-                                 <button><div class="text-muted">
-                                SHOP NOW
-</button>
-                                  <!--<form action="shop.php" method="get" target="_blank">
-                                <button class="btn btn-primary btn-lg mt-4" type="submit">SHOP NOW</button>-->
-                            </form>
-                            
-                        <div class="d-flex justify-content-center mt-4">
-                            <a class="btn btn-sm me-2" href=""><svg class="bi bi-facebook" fill="currentColor"
-                                    height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
-                                    </path>
-                                </svg></a> <a class="btn btn-sm me-2" href=""><svg class="bi bi-twitter"
-                                    fill="currentColor" height="16" viewbox="0 0 16 16" width="16"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z">
-                                    </path>
-                                </svg></a> <a class="btn btn-sm" href=""><svg class="bi bi-linkedin" fill="currentColor"
-                                    height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z">
-                                    </path>
-                                </svg></a>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card text-center mb-3">
-                    <div class="card-body p-3 pb-0">
-                      <div class="img-hover-zoom">
-                        <div class="mb-4"><img class="img-fluid" src="image/kurta.jpg"></div>
-                        <h5 class="fw-bold">FASHION OUR CHOICE</h5>
-                        <!--<div class="text-muted">
-                            FIND NOW
-                        </div>-->
-                                                     <form action="shopnow (2).php" method="get" target="_blank">
-                                 <button><div class="text-muted">
-                                SHOP NOW
-</button>
-                                  <!--<form action="shop.php" method="get" target="_blank">
-                                <button class="btn btn-primary btn-lg mt-4" type="submit">SHOP NOW</button>-->
-                            </form>
-                            
-                        <div class="d-flex justify-content-center mt-4">
-                            <a class="btn btn-sm me-2" href=""><svg class="bi bi-facebook" fill="currentColor"
-                                    height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
-                                    </path>
-                                </svg></a> <a class="btn btn-sm me-2" href=""><svg class="bi bi-twitter"
-                                    fill="currentColor" height="16" viewbox="0 0 16 16" width="16"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z">
-                                    </path>
-                                </svg></a> <a class="btn btn-sm" href=""><svg class="bi bi-linkedin" fill="currentColor"
-                                    height="16" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z">
-                                    </path>
-                                </svg></a>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         </div>
     </section>
 
@@ -380,10 +390,10 @@
 
 
     <!-- ********* Process *********-->
-   
 
-    
-       
+
+
+
     <section class="py-5">
         <div class="container">
             <div class="row justify-content-center text-center mb-2 mb-lg-4">
@@ -454,7 +464,7 @@
                                 <!--<svg class="bi bi-buildings" fill="currentColor" height="48" viewbox="0 0 16 16" width="48" xmlns="http://www.w3.org/2000/svg">-->
                                 <i class="fa-solid fa-cart-shopping"></i>
                                 <path
-                                    d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022ZM6 8.694 1 10.36V15h5V8.694ZM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15Z">
+                                    d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5V14l-1.125 1.5a.5.5 0 0 1-.9-.3V10.5a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022ZM6 8.694 1 10.36V15h5V8.694ZM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15Z">
                                 </path>
                                 <path
                                     d="M2 11h1v1H2v-1Zm2 0h1v1H4v-1Zm-2 2h1v1H2v-1Zm2 0h1v1H4v-1Zm4-4h1v1H8V9Zm2 0h1v1h-1V9Zm-2 2h1v1H8v-1Zm2 0h1v1h-1v-1Zm2-2h1v1h-1V9Zm0 2h1v1h-1v-1ZM8 7h1v1H8V7Zm2 0h1v1h-1V7Zm2 0h1v1h-1V7ZM8 5h1v1H8V5Zm2 0h1v1h-1V5Zm2 0h1v1h-1V5Zm0-2h1v1h-1V3Z">
@@ -477,11 +487,11 @@
             </div>
         </div>
     </section>
-    
-                                                        
-                                                      
-                                                                                                     
-        
+
+
+
+
+
 
 
     <!-- *************Footer***************-->
@@ -493,6 +503,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-</body>
+    </body>
 
 </html>
