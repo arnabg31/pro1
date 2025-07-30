@@ -22,8 +22,11 @@
 
 
     <!-- ********* Header *********-->
+   
+         <!-- Navigator bar -->
 
- <nav class="navbar bg-light">
+
+    <nav class="navbar bg-light">
 
         <!--	<a class="navbar-brand" href=""><img alt="Free Frontend Logo" class="img-fluid" height="" src="https://freefrontend.dev/wp-content/uploads/free-frontend-logo.png" width="300"></a>-->
         </div>
@@ -41,8 +44,8 @@
 
         <div class="container-fluid d-flex justify-content-between align-items-center">
 
-            <a class="navbar-brand" href="index.php"><img src="image\boutique-logo-design-template-free-vector.jpg"
-                    alt="Logo" style="width: 90px; height: 80px;"></a>
+            <a class="navbar-brand" href="index.php"><img src="image\logoch.png" alt="Logo"
+                    style="width: 90px; height: 80px;"></a>
             <div class="d-flex align-items-center">
                 <h3 class="text-info">The Artisan Boutiqe</h3>
             </div>
@@ -92,25 +95,26 @@
 
     </nav>
 
-          
 
     <div class="container-fluid bg-dark  position-relative shadow ">
-             <nav class="navbar navbar-expand-lg navbar-dark py-5 py-lg-0 px-0  px-lg-5">
+        <nav class="navbar navbar-expand-lg navbar-dark py-5 py-lg-0 px-0  px-lg-5">
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-between"  id="navbarCollapse">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav font-weight-bold mx-auto py-0 text-left">
-                    <a href="index.php"  class="nav-item nav-link"><i class="fa-solid fa-house"></i>HOME </a>
-                    <a href="about.php"  class="nav-item nav-link active"><i class="fa-solid fa-address-card"></i> ABOUT US </a>
-                    <a href="bestsallers.php" class="nav-item nav-link "><i class="fa-solid fa-chess-board"></i> Best Sallers </a>
-                    <a href="amount.php"  class="nav-item nav-link"> <i class="fa-solid fa-comments-dollar"></i> Amount </a>
-                    <a href="contact.php"  class="nav-item nav-link"><i class="fa-regular fa-id-badge"></i> Contact </a>
+                    <a href="index.php" class="nav-item nav-link active"><i class="fa-solid fa-house"></i>HOME </a>
+                    <a href="about.php" class="nav-item nav-link"><i class="fa-solid fa-address-card"></i> ABOUT US </a>
+                    <a href="bestsallers.php" class="nav-item nav-link "><i class="fa-solid fa-chess-board"></i> Best
+                        Sallers </a>
+                    <a href="amount.php" class="nav-item nav-link"> <i class="fa-solid fa-comments-dollar"></i> Amount
+                    </a>
+                    <a href="contact.php" class="nav-item nav-link"><i class="fa-regular fa-id-badge"></i> Contact </a>
                 </div>
             </div>
-            </nav>
+        </nav>
 
-        </div>
+    </div>
 
 <!-- ********* Header *********-->
 
