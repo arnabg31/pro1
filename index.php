@@ -489,11 +489,6 @@
     </section>
 
 
-
-
-
-
-
     <!-- *************Footer***************-->
 
     <?php include ("footer.php");?>
