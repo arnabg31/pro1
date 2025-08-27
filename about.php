@@ -116,26 +116,6 @@
 
     </div>
 
-<!-- ********* Header *********-->
-
-<!-- *****Banner ********-->
-
-<!-- About 8 - Bootstrap Brain Component -->
-<!--<section class="py-3 py-md-5 py-xl-8">
-  <div class="container">
-    <div class="row justify-content-md-center">
-      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-        <h2 class="mb-4 display-5 text-center">About Us</h2>
-        <p class="text-secondary mb-5 text-center lead fs-4">Since 2014, MarisGold Unisex Boutique has been a beacon of style, inclusivity, and innovation in the world of fashion. With a legacy of lengthy years in the industry, we have redefined the concept of unisex clothing, offering a diverse range of apparels and Accesories that transcend gender norms and celebrate individuality.
-
-Our boutique is a curated haven for those who appreciate quality craftsmanship, timeless designs, and a touch of sophistication in every piece. Whether you're looking for sleek streetwear, chic casual wear, or elegant formal attire, MarisGold Unisex Boutique has something for everyone. Each item in our boutique is carefully selected to embody a perfect blend of sophistication, comfort, and versatility, catering to the diverse tastes and preferences of our discerning clientele.
-
-Our team at MarisGold Unisex Boutique is dedicated to providing a personalized shopping experience, where every visit leaves you feeling inspired and empowered to embrace your unique style journey. Whether you're exploring our collections in-store or browsing online, our friendly staff are here to assist you in finding the perfect pieces that speak to your individuality.
-</p>
-        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
-      </div>
-    </div>
-  </div>-->
 
 
   <section class="about-us py-5 bg-light">
