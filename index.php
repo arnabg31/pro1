@@ -263,8 +263,8 @@
                                     <img class="flip-back img-fluid" src="image/saree1.jpg" alt="Back">
                                 </div>
                             </div>
-                            <h5 class="fw-bold">NEW ARRIVAL SAREE</h5>
-                            <form action="shopnow (2).php" method="get" target="_blank">
+                            <h5 class="fw-bold"> SAREE COLLECTION</h5>
+                            <form action="new arrivals.php" method="get" target="_blank">
                                 <button class="btn btn-primary btn-lg mt-2" type="submit">
                                     SHOP NOW
                                 </button>
@@ -295,9 +295,6 @@
                 <div class="col-md-4">
                     <div class="card text-center mb-3 h-100 d-flex flex-column">
                         <div class="card-body p-0 pb-4 d-flex flex-column">
-                            <!-- <div class="img-hover-zoom mb-3">
-                                <div class="mb-4"><img class="img-fluid" src="image/kids.jpg"></div>
-                            </div> -->
                             <div class="img-flip mb-3">
                                 <div class="flip-inner">
                                     <img class="flip-front img-fluid" src="image/kids.jpg" alt="Front">
@@ -305,10 +302,8 @@
                                 </div>
                             </div>
                             <h5 class="fw-bold">CHILDREN COLLECTION</h5>
-                            <!-- <div class="text-muted">
-                            BOOK NOW
-                        </div>-->
-                            <form action="shopnow (2).php" method="get" target="_blank">
+
+                            <form action="new arrivals.php" method="get" target="_blank">
                                 <button class="btn btn-primary btn-lg mt-2" type="submit">
                                     SHOP NOW
                                 </button>
@@ -340,9 +335,6 @@
                 <div class="col-md-4">
                     <div class="card text-center mb-3 h-100 d-flex flex-column">
                             <div class="card-body p-0 pb-4 d-flex flex-column">
-                           <!-- <div class="img-hover-zoom mb-3">
-                                <div class="mb-4"><img class="img-fluid" src="image/kurta.jpg"></div>
-                            </div> -->
                             <div class="img-flip mb-3">
                                 <div class="flip-inner">
                                     <img class="flip-front img-fluid" src="image/kurta.jpg" alt="Front">
@@ -350,10 +342,7 @@
                                 </div>
                             </div>
                             <h5 class="fw-bold">FASHION OUR CHOICE</h5>
-                            <!--<div class="text-muted">
-                            FIND NOW
-                        </div>-->
-                            <form action="shopnow (2).php" method="get" target="_blank">
+                            <form action="new arrivals.php" method="get" target="_blank">
                                 <button class="btn btn-primary btn-lg mt-2" type="submit">
                                     SHOP NOW
                                 </button>
