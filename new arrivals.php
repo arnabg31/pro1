@@ -63,7 +63,7 @@
   <!-- Product 1 -->
   <div class="row align-items-center arrival-row">
     <div class="col-md-6">
-      <img src= alt="Dress" class="arrival-img">
+      <img class="flip-front img-fluid" w="0" src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg"  style="height:;" alt="fnt";>
     </div>
     <div class="col-md-6 arrival-text">
       <h3>Handcrafted Linen Dress</h3>
@@ -76,7 +76,8 @@
   <!-- Product 2 -->
   <div class="row align-items-center flex-md-row-reverse arrival-row">
     <div class="col-md-6">
-      <img src="https://via.placeholder.com/600x400?text=Artisan+Leather+Bag" alt="Bag" class="arrival-img">
+      <img class="flip-front img-fluid" w="0" src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg"  style="height:" alt="fnt";>
+      <!--<img src="https://via.placeholder.com/600x400?text=Artisan+Leather+Bag" alt="Bag" class="arrival-img">-->
     </div>
     <div class="col-md-6 arrival-text">
       <h3>Artisan Leather Crossbody</h3>
@@ -107,3 +108,12 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
