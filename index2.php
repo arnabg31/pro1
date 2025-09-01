@@ -69,7 +69,6 @@
     </div>
   </div>
 </nav>
-
 <!-- Social Media Icons -->
             <div class="d-block">
                 <div class="d-flex ms-auto">
@@ -100,8 +99,7 @@
         </div>
 
     </nav>
-
- <!-- ********* Slider Image *********-->
+    <!-- ********* Slider Image *********-->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -154,8 +152,7 @@
             </div>
 
             <!-- Model Collection -->
-
-            <div class="row">
+             <div class="row">
                 <div class="col-md-4">
                     <div class="card text-center mb-3">
                         <div class="card-body p-0 pb-4">
@@ -241,7 +238,7 @@
                                     <path
                                         d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
                                     </path>
-                                </svg></a> <a class="btn btn-sm me-2" href=""><svg class="bi bi-twitter"
+                                    </svg></a> <a class="btn btn-sm me-2" href=""><svg class="bi bi-twitter"
                                     fill="currentColor" height="16" viewbox="0 0 16 16" width="16"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -266,8 +263,7 @@
 
 
     <!-- ********* Process *********-->
-
-    <section class="py-5">
+     <section class="py-5">
         <div class="container">
             <div class="row justify-content-center text-center mb-2 mb-lg-4">
                 <div class="col-12 col-lg-8 col-xxl-7 text-center mx-auto">
@@ -311,7 +307,6 @@
                     <div class="card text-center border-0">
                         <div class="card-body bg-light py-5">
                             <div class="mb-3 mx-auto">
-
                                 <i class="fa-solid fa-arrows-rotate"></i>
                                 <path
                                     d="M9.5 2.672a.5.5 0 1 0 1 0V.843a.5.5 0 0 0-1 0v1.829Zm4.5.035A.5.5 0 0 0 13.293 2L12 3.293a.5.5 0 1 0 .707.707L14 2.707ZM7.293 4A.5.5 0 1 0 8 3.293L6.707 2A.5.5 0 0 0 6 2.707L7.293 4Zm-.621 2.5a.5.5 0 1 0 0-1H4.843a.5.5 0 1 0 0 1h1.829Zm8.485 0a.5.5 0 1 0 0-1h-1.829a.5.5 0 0 0 0 1h1.829ZM13.293 10A.5.5 0 1 0 14 9.293L12.707 8a.5.5 0 1 0-.707.707L13.293 10ZM9.5 11.157a.5.5 0 0 0 1 0V9.328a.5.5 0 0 0-1 0v1.829Zm1.854-5.097a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L8.646 5.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0l1.293-1.293Zm-3 3a.5.5 0 0 0 0-.706l-.708-.708a.5.5 0 0 0-.707 0L.646 13.94a.5.5 0 0 0 0 .707l.708.708a.5.5 0 0 0 .707 0L8.354 9.06Z">
@@ -365,8 +360,7 @@
 
 
 <!-- ********* Online Purchase *********-->
-
-<section class="py-5">
+ <section class="py-5">
     <div class="container">
         <div class="row justify-content-center text-center mb-2 mb-lg-4">
             <div class="col-12 col-lg-8 col-xxl-7 text-center mx-auto">
@@ -425,7 +419,7 @@
                                                     <tr>
                                                         <th scope="row">2</th>
                                                        <td><a href="#" class="text-danger"><i class="ri-delete-bin-3-line"></i></a></td>
-                                                        <td><img src="https://themesbox.in/admin-templates/olian/html/light-vertical/assets/images/ecommerce/product_02.svg" class="img-fluid" width="35" alt="product"></td>
+                                                       <td><img src="https://themesbox.in/admin-templates/olian/html/light-vertical/assets/images/ecommerce/product_02.svg" class="img-fluid" width="35" alt="product"></td>
                                                         <td>Apple iPhone</td>
                                                         <td>
                                                             <div class="form-group mb-0">
@@ -468,7 +462,7 @@
                                                         <div class="form-group">
                                                             <label for="specialNotes">Please Select your Address order:</label>
                                                             <textarea class="form-control" name="specialNotes" id="specialNotes" rows="3" placeholder="Message here"></textarea>
-                                                        </div>
+                                                            </div>
                                                     </form>
                                                 </div>
                                             </div>
@@ -522,8 +516,6 @@
     <!-- *************Footer***************-->
 
     <?php include ("footer.php");?>
-
-   
 </body>
 
 </html>

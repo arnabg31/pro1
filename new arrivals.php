@@ -63,40 +63,44 @@
   <!-- Product 1 -->
   <div class="row align-items-center arrival-row">
     <div class="col-md-6">
-      <img class="flip-front img-fluid" w="0" src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg"  style="height:;" alt="fnt";>
+      <img class="flip-front img-fluid" w="50" h="30" src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg" alt="fnt";>
+      <!--<img src="https://via.placeholder.com/600x400?text=Linen+Dress" alt="Dress" class="arrival-img">-->
     </div>
     <div class="col-md-6 arrival-text">
       <h3>Handcrafted Linen Dress</h3>
       <p>Breezy, breathable, and made with love. Perfect for warm evenings and strolls through the market.</p>
-      <div class="price">$115.00</div>
-      <button class="btn btn-shop">Shop Now</button>
+      <div class="price"><i class="fa-solid fa-indian-rupee-sign"></i>115.00</div>
+      <button class="btn btn-shop">Add to Cart</button>
+            <button class="btn btn-shop">Buy Now</button>
     </div>
   </div>
 
   <!-- Product 2 -->
   <div class="row align-items-center flex-md-row-reverse arrival-row">
     <div class="col-md-6">
-      <img class="flip-front img-fluid" w="0" src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg"  style="height:" alt="fnt";>
+      <img class="flip-front img-fluid" w="50" h="30" src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg" alt="fnt";>
       <!--<img src="https://via.placeholder.com/600x400?text=Artisan+Leather+Bag" alt="Bag" class="arrival-img">-->
     </div>
     <div class="col-md-6 arrival-text">
       <h3>Artisan Leather Crossbody</h3>
       <p>Crafted by skilled hands, this timeless piece adds character to every outfit.</p>
-      <div class="price">$195.00</div>
-      <button class="btn btn-shop">Shop Now</button>
+      <div class="price"><i class="fa-solid fa-indian-rupee-sign"></i>195.00</div>
+      <button class="btn btn-shop">Add to Cart</button>
+            <button class="btn btn-shop">Buy Now</button>
     </div>
   </div>
 
   <!-- Product 3 -->
   <div class="row align-items-center arrival-row">
     <div class="col-md-6">
-      <img src="https://via.placeholder.com/600x400?text=Natural+Earrings" alt="Earrings" class="arrival-img">
+      <img src="image/da8915e383f15ed39fe72cbb9eb4816c.jpg" alt="Earrings" class="arrival-img">
     </div>
     <div class="col-md-6 arrival-text">
       <h3>Natural Gem Earrings</h3>
       <p>Earthy elegance in every detail. Lightweight and radiant—designed to stand out gently.</p>
-      <div class="price">$45.00</div>
-      <button class="btn btn-shop">Shop Now</button>
+      <div class="price"><i class="fa-solid fa-indian-rupee-sign"></i>45.00</div>
+      <button class="btn btn-shop">Add to Cart</button>
+            <button class="btn btn-shop">Buy Now</button>
     </div>
   </div>
 
