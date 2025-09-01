@@ -264,7 +264,7 @@
                                 </div>
                             </div>
                             <h5 class="fw-bold"> SAREE COLLECTION</h5>
-                            <form action="new arrivals.php" method="get" target="_blank">
+                            <form action="lernmore.php" method="get" target="_blank">
                                 <button class="btn btn-primary btn-lg mt-2" type="submit">
                                     SHOP NOW
                                 </button>
@@ -303,7 +303,7 @@
                             </div>
                             <h5 class="fw-bold">CHILDREN COLLECTION</h5>
 
-                            <form action="new arrivals.php" method="get" target="_blank">
+                            <form action="lernmore.php" method="get" target="_blank">
                                 <button class="btn btn-primary btn-lg mt-2" type="submit">
                                     SHOP NOW
                                 </button>
@@ -342,7 +342,7 @@
                                 </div>
                             </div>
                             <h5 class="fw-bold">FASHION OUR CHOICE</h5>
-                            <form action="new arrivals.php" method="get" target="_blank">
+                            <form action="lernmore.php" method="get" target="_blank">
                                 <button class="btn btn-primary btn-lg mt-2" type="submit">
                                     SHOP NOW
                                 </button>

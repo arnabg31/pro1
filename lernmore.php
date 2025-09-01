@@ -60,7 +60,13 @@
                         <h5 class="product-title card-title">Product 1</h5>
                         <p class="card-text">A brief description of product 1. It has all the features you need!</p>
                         <p class="product-price">$29.99</p>
-                        <button class="btn btn-primary btn-block">Add to Cart</button>
+                         <form action="index3.php" method="get" target="_blank">
+                                <button class="btn btn-primary btn-lg mt-2" type="submit">
+                                    Add to Cart
+                                </button>
+                            </form>
+
+                       <!-- <button class="btn btn-primary btn-block">Add to Cart</button>-->
                     </div>
                 </div>
             </div>
@@ -73,7 +79,13 @@
                         <h5 class="product-title card-title">Product 2</h5>
                         <p class="card-text">A brief description of product 2. Excellent quality and affordable price!</p>
                         <p class="product-price">$39.99</p>
-                        <button class="btn btn-primary btn-block">Add to Cart</button>
+                         <form action="index3.php" method="get" target="_blank">
+                                <button class="btn btn-primary btn-lg mt-2" type="submit">
+                                    Add to Cart
+                                </button>
+                            </form>
+
+                       <!-- <button class="btn btn-primary btn-block">Add to Cart</button>-->
                     </div>
                 </div>
             </div>
@@ -86,7 +98,13 @@
                         <h5 class="product-title card-title">Product 3</h5>
                         <p class="card-text">A brief description of product 3. Perfect for your needs!</p>
                         <p class="product-price">$49.99</p>
-                        <button class="btn btn-primary btn-block">Add to Cart</button>
+                         <form action="index3.php" method="get" target="_blank">
+                                <button class="btn btn-primary btn-lg mt-2" type="submit">
+                                    Add to Cart
+                                </button>
+                            </form>
+
+                       <!-- <button class="btn btn-primary btn-block">Add to Cart</button>-->
                     </div>
                 </div>
             </div>
