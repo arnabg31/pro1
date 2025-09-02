@@ -85,7 +85,7 @@
           <hr>
           <p><strong>Delivery:</strong> ₹0</p>
           <h5>Total: ₹0</h5>
-          <form action="amount.php" method="get" target="_blank">
+          <form action="amount.php" method="get">
                                <!-- <button class="btn btn-primary btn-lg mt-2" type="submit">-->
                                 <button class="btn btn-success btn-block mt-3">Proceed to Checkout</button>
                                 </button>
