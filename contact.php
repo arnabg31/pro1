@@ -53,9 +53,14 @@
             <div class="d-flex align-items-center">
                 <h3 class="text-info">The Artisan Boutiqe</h3>
             </div>
-            <div class="d-flex align-items-center">
+             <h5>
+  <span class="text-primary">Welcome to</span>
+  <span class="text-success">Our Website</span>
+  <span class="text-danger">!</span>
+</h5>
+           <!-- <div class="d-flex align-items-center">
                 <p class="text-dark mb-0">Welcome to our website!</p>
-            </div>
+            </div>-->
             <form class="d-lg-flex d-none align-items-center position-relative">
                 <div class="input-group align-items-center">
                     <input aria-describedby="button-addon2" aria-label="Search" class="form-control"

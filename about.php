@@ -26,7 +26,7 @@
          <!-- Navigator bar -->
 
 
-    <nav class="navbar bg-light">
+    <!--<nav class="navbar bg-light">-->
 
         <!--	<a class="navbar-brand" href=""><img alt="Free Frontend Logo" class="img-fluid" height="" src="https://freefrontend.dev/wp-content/uploads/free-frontend-logo.png" width="300"></a>-->
         </div>
@@ -49,9 +49,16 @@
             <div class="d-flex align-items-center">
                 <h3 class="text-info">The Artisan Boutiqe</h3>
             </div>
-            <div class="d-flex align-items-center">
+           <!-- <div class="d-flex align-items-center">
                 <p class="text-dark mb-0">Welcome to our website!</p>
-            </div>
+            </div>-->
+             <h5>
+  <span class="text-primary">Welcome to</span>
+  <span class="text-success">Our Website</span>
+  <span class="text-danger">!</span>
+</h5>
+
+            <!-- Search Bar -->
             <form class="d-lg-flex d-none align-items-center position-relative">
                 <div class="input-group align-items-center">
                     <input aria-describedby="button-addon2" aria-label="Search" class="form-control"
@@ -118,7 +125,7 @@
 
 
 
-  <section class="about-us py-5 bg-light">
+  <!--<section class="about-us py-5 bg-light">-->
     <div class="container">
       <div class="row">
       <div class="col-md-6">

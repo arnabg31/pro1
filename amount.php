@@ -32,7 +32,7 @@
 	 <!-- Navigator bar -->
 
 
-    <nav class="navbar bg-light">
+    <!--<nav class="navbar bg-light">-->
 
         <!--	<a class="navbar-brand" href=""><img alt="Free Frontend Logo" class="img-fluid" height="" src="https://freefrontend.dev/wp-content/uploads/free-frontend-logo.png" width="300"></a>-->
         </div>
@@ -55,9 +55,15 @@
             <div class="d-flex align-items-center">
                 <h3 class="text-info">The Artisan Boutiqe</h3>
             </div>
-            <div class="d-flex align-items-center">
+           <!-- <div class="d-flex align-items-center">
                 <p class="text-dark mb-0">Welcome to our website!</p>
-            </div>
+            </div>-->
+
+             <h5>
+  <span class="text-primary">Welcome to</span>
+  <span class="text-success">Our Website</span>
+  <span class="text-danger">!</span>
+</h5>
             <form class="d-lg-flex d-none align-items-center position-relative">
                 <div class="input-group align-items-center">
                     <input aria-describedby="button-addon2" aria-label="Search" class="form-control"
